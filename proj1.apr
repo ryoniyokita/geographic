@@ -1,0 +1,10938 @@
+/3.2
+(ODB.1
+	Dependencies:	"$AVEXT/jfif.avx\n$AVEXT/transform.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"proj1.apr"
+	CreationDate:	"31 October 2020 14:22:26"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	ActiveDoc:	6
+	Buttons:	1325
+	Buttons:	1326
+	Buttons:	1327
+	Dependencies:	1328
+	Dependencies:	1329
+	Scripts:	1330
+	Prefs:	1359
+	GUI:	1362
+	WorkDir:	2187
+	WinX:	-8
+	WinY:	-7
+	WinW:	1382
+	WinH:	743
+	SerialNumber:	"911111111111"
+	SelColor:	2188
+	GUINames:	2189
+	GUINames:	2190
+	GUINames:	2191
+	GUINames:	2192
+	GUINames:	2193
+	GUINames:	2194
+	GUINames:	2195
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	5
+	Y:	5
+	W:	246
+	H:	329
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(View.6
+	Name:	"View1"
+	CreationDate:	"31 October 2020 14:23:33"
+	GUIName:	"View"
+	Win:	7
+	CSMgr:	8
+	DocExts:	10
+	DocExts:	11
+	Graphics:	12
+	Theme:	19
+	Theme:	1311
+	LastScale:	12443981.69533708100000
+	Dpy:	13
+	TOCWidth:	150
+	CoordPrecision:	2
+)
+
+(DocWin.7
+	Owner:	6
+	Open:	1
+	X:	-8
+	Y:	-8
+	W:	1384
+	H:	634
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.10
+	Doc:	6
+)
+
+(DocAct.11
+	Doc:	6
+)
+
+(GList.12
+	Dpy:	13
+	FormatNumb:	18
+)
+
+(MapDpy.13
+	Left:	97.05106309135580
+	Bottom:	-12.80134397697889
+	Top:	4.69814782100494
+	Right:	131.34299651366709
+	ReportUnits:	4
+	Units:	10
+	Scale:	14
+	FrameTop:	6.15625000000000
+	FrameRight:	12.61458333333333
+	PageDpy:	15
+	FitToPage:	1
+	MouseLoc:	17
+)
+
+(Numb.14
+	N:	0.35179593048007
+)
+
+(PageDpy.15
+	Top:	6.15625000000000
+	Right:	12.61458333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	16
+	ZoomRight:	12.61458333333333
+	ZoomTop:	6.15625000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.16
+	N:	96.00000000000000
+)
+
+(PointD.17
+	x:	109.74072943771183
+	y:	-4.18484293939294
+)
+
+(Numb.18
+)
+
+(FTheme.19
+	Name:	"Country.shp"
+	Source:	20
+	Flags:	0x06
+	Legend:	39
+	Threshold:	1308
+	View:	6
+	GSet:	1309
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1310
+	LabelField:	27
+	SnapTolCursor:	1
+)
+
+(ShpSrc.20
+	Name:	21
+	FTab:	23
+)
+
+(SrcName.21
+	FileName:	22
+	Name:	"country.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.22
+	Path:	"c:/program files (x86)/esri/arcview gis 3.3/esridata/world/country.shp"
+)
+
+(FTab.23
+	Name:	"country.dbf"
+	BTab:	24
+	Fields:	37
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	SelBits:	38
+	FSrc:	20
+)
+
+(dBASE.24
+	Name:	"country.dbf"
+	Fields:	25
+	Fields:	26
+	Fields:	27
+	Fields:	28
+	Fields:	29
+	Fields:	30
+	Fields:	31
+	Fields:	32
+	Fields:	33
+	Fields:	34
+	Fields:	35
+	FileName:	36
+)
+
+(Field.25
+	Name:	"Fips_cntry"
+	Btab:	24
+	Alias:	"Fips_cntry"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.26
+	Name:	"Gmi_cntry"
+	Btab:	24
+	Alias:	"Gmi_cntry"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.27
+	Name:	"Cntry_name"
+	Btab:	24
+	Alias:	"Cntry_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.28
+	Name:	"Sovereign"
+	Btab:	24
+	Alias:	"Sovereign"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.29
+	Name:	"Pop_cntry"
+	Btab:	24
+	Alias:	"Pop_cntry"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.30
+	Name:	"Sqkm_cntry"
+	Btab:	24
+	Alias:	"Sqkm_cntry"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.31
+	Name:	"Sqmi_cntry"
+	Btab:	24
+	Alias:	"Sqmi_cntry"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.32
+	Name:	"Curr_type"
+	Btab:	24
+	Alias:	"Curr_type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.33
+	Name:	"Curr_code"
+	Btab:	24
+	Alias:	"Curr_code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.34
+	Name:	"Landlocked"
+	Btab:	24
+	Alias:	"Landlocked"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.35
+	Name:	"Color_map"
+	Btab:	24
+	Alias:	"Color_map"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.36
+	Path:	"c:/program files (x86)/esri/arcview gis 3.3/esridata/world/country.dbf"
+)
+
+(Field.37
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.38
+	NumBits:	251
+
+)
+
+(Legend.39
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	40
+	Symbols:	41
+	Class:	1050
+	Class:	1051
+	Class:	1052
+	Class:	1053
+	Class:	1054
+	Class:	1055
+	Class:	1056
+	Class:	1057
+	Class:	1058
+	Class:	1059
+	Class:	1060
+	Class:	1061
+	Class:	1062
+	Class:	1063
+	Class:	1064
+	Class:	1065
+	Class:	1066
+	Class:	1067
+	Class:	1068
+	Class:	1069
+	Class:	1070
+	Class:	1071
+	Class:	1072
+	Class:	1073
+	Class:	1074
+	Class:	1075
+	Class:	1076
+	Class:	1077
+	Class:	1078
+	Class:	1079
+	Class:	1080
+	Class:	1081
+	Class:	1082
+	Class:	1083
+	Class:	1084
+	Class:	1085
+	Class:	1086
+	Class:	1087
+	Class:	1088
+	Class:	1089
+	Class:	1090
+	Class:	1091
+	Class:	1092
+	Class:	1093
+	Class:	1094
+	Class:	1095
+	Class:	1096
+	Class:	1097
+	Class:	1098
+	Class:	1099
+	Class:	1100
+	Class:	1101
+	Class:	1102
+	Class:	1103
+	Class:	1104
+	Class:	1105
+	Class:	1106
+	Class:	1107
+	Class:	1108
+	Class:	1109
+	Class:	1110
+	Class:	1111
+	Class:	1112
+	Class:	1113
+	Class:	1114
+	Class:	1115
+	Class:	1116
+	Class:	1117
+	Class:	1118
+	Class:	1119
+	Class:	1120
+	Class:	1121
+	Class:	1122
+	Class:	1123
+	Class:	1124
+	Class:	1125
+	Class:	1126
+	Class:	1127
+	Class:	1128
+	Class:	1129
+	Class:	1130
+	Class:	1131
+	Class:	1132
+	Class:	1133
+	Class:	1134
+	Class:	1135
+	Class:	1136
+	Class:	1137
+	Class:	1138
+	Class:	1139
+	Class:	1140
+	Class:	1141
+	Class:	1142
+	Class:	1143
+	Class:	1144
+	Class:	1145
+	Class:	1146
+	Class:	1147
+	Class:	1148
+	Class:	1149
+	Class:	1150
+	Class:	1151
+	Class:	1152
+	Class:	1153
+	Class:	1154
+	Class:	1155
+	Class:	1156
+	Class:	1157
+	Class:	1158
+	Class:	1159
+	Class:	1160
+	Class:	1161
+	Class:	1162
+	Class:	1163
+	Class:	1164
+	Class:	1165
+	Class:	1166
+	Class:	1167
+	Class:	1168
+	Class:	1169
+	Class:	1170
+	Class:	1171
+	Class:	1172
+	Class:	1173
+	Class:	1174
+	Class:	1175
+	Class:	1176
+	Class:	1177
+	Class:	1178
+	Class:	1179
+	Class:	1180
+	Class:	1181
+	Class:	1182
+	Class:	1183
+	Class:	1184
+	Class:	1185
+	Class:	1186
+	Class:	1187
+	Class:	1188
+	Class:	1189
+	Class:	1190
+	Class:	1191
+	Class:	1192
+	Class:	1193
+	Class:	1194
+	Class:	1195
+	Class:	1196
+	Class:	1197
+	Class:	1198
+	Class:	1199
+	Class:	1200
+	Class:	1201
+	Class:	1202
+	Class:	1203
+	Class:	1204
+	Class:	1205
+	Class:	1206
+	Class:	1207
+	Class:	1208
+	Class:	1209
+	Class:	1210
+	Class:	1211
+	Class:	1212
+	Class:	1213
+	Class:	1214
+	Class:	1215
+	Class:	1216
+	Class:	1217
+	Class:	1218
+	Class:	1219
+	Class:	1220
+	Class:	1221
+	Class:	1222
+	Class:	1223
+	Class:	1224
+	Class:	1225
+	Class:	1226
+	Class:	1227
+	Class:	1228
+	Class:	1229
+	Class:	1230
+	Class:	1231
+	Class:	1232
+	Class:	1233
+	Class:	1234
+	Class:	1235
+	Class:	1236
+	Class:	1237
+	Class:	1238
+	Class:	1239
+	Class:	1240
+	Class:	1241
+	Class:	1242
+	Class:	1243
+	Class:	1244
+	Class:	1245
+	Class:	1246
+	Class:	1247
+	Class:	1248
+	Class:	1249
+	Class:	1250
+	Class:	1251
+	Class:	1252
+	Class:	1253
+	Class:	1254
+	Class:	1255
+	Class:	1256
+	Class:	1257
+	Class:	1258
+	Class:	1259
+	Class:	1260
+	Class:	1261
+	Class:	1262
+	Class:	1263
+	Class:	1264
+	Class:	1265
+	Class:	1266
+	Class:	1267
+	Class:	1268
+	Class:	1269
+	Class:	1270
+	Class:	1271
+	Class:	1272
+	Class:	1273
+	Class:	1274
+	Class:	1275
+	Class:	1276
+	Class:	1277
+	Class:	1278
+	Class:	1279
+	Class:	1280
+	Class:	1281
+	Class:	1282
+	Class:	1283
+	Class:	1284
+	Class:	1285
+	Class:	1286
+	Class:	1287
+	Class:	1288
+	Class:	1289
+	Class:	1290
+	Class:	1291
+	Class:	1292
+	Class:	1293
+	Class:	1294
+	Class:	1295
+	Class:	1296
+	Class:	1297
+	Class:	1298
+	Class:	1299
+	Class:	1300
+	Class:	1301
+	StdDevs:	1.00000000000000
+	NullSym:	1302
+	NullValues:	1306
+	StatValues:	1307
+	Precision:	-3
+)
+
+(AVStr.40
+	S:	"Cntry_name"
+)
+
+(SymList.41
+	Child:	42
+	Child:	46
+	Child:	50
+	Child:	54
+	Child:	58
+	Child:	62
+	Child:	66
+	Child:	70
+	Child:	74
+	Child:	78
+	Child:	82
+	Child:	86
+	Child:	90
+	Child:	94
+	Child:	98
+	Child:	102
+	Child:	106
+	Child:	110
+	Child:	114
+	Child:	118
+	Child:	122
+	Child:	126
+	Child:	130
+	Child:	134
+	Child:	138
+	Child:	142
+	Child:	146
+	Child:	150
+	Child:	154
+	Child:	158
+	Child:	162
+	Child:	166
+	Child:	170
+	Child:	174
+	Child:	178
+	Child:	182
+	Child:	186
+	Child:	190
+	Child:	194
+	Child:	198
+	Child:	202
+	Child:	206
+	Child:	210
+	Child:	214
+	Child:	218
+	Child:	222
+	Child:	226
+	Child:	230
+	Child:	234
+	Child:	238
+	Child:	242
+	Child:	246
+	Child:	250
+	Child:	254
+	Child:	258
+	Child:	262
+	Child:	266
+	Child:	270
+	Child:	274
+	Child:	278
+	Child:	282
+	Child:	286
+	Child:	290
+	Child:	294
+	Child:	298
+	Child:	302
+	Child:	306
+	Child:	310
+	Child:	314
+	Child:	318
+	Child:	322
+	Child:	326
+	Child:	330
+	Child:	334
+	Child:	338
+	Child:	342
+	Child:	346
+	Child:	350
+	Child:	354
+	Child:	358
+	Child:	362
+	Child:	366
+	Child:	370
+	Child:	374
+	Child:	378
+	Child:	382
+	Child:	386
+	Child:	390
+	Child:	394
+	Child:	398
+	Child:	402
+	Child:	406
+	Child:	410
+	Child:	414
+	Child:	418
+	Child:	422
+	Child:	426
+	Child:	430
+	Child:	434
+	Child:	438
+	Child:	442
+	Child:	446
+	Child:	450
+	Child:	454
+	Child:	458
+	Child:	462
+	Child:	466
+	Child:	470
+	Child:	474
+	Child:	478
+	Child:	482
+	Child:	486
+	Child:	490
+	Child:	494
+	Child:	498
+	Child:	502
+	Child:	506
+	Child:	510
+	Child:	514
+	Child:	518
+	Child:	522
+	Child:	526
+	Child:	530
+	Child:	534
+	Child:	538
+	Child:	542
+	Child:	546
+	Child:	550
+	Child:	554
+	Child:	558
+	Child:	562
+	Child:	566
+	Child:	570
+	Child:	574
+	Child:	578
+	Child:	582
+	Child:	586
+	Child:	590
+	Child:	594
+	Child:	598
+	Child:	602
+	Child:	606
+	Child:	610
+	Child:	614
+	Child:	618
+	Child:	622
+	Child:	626
+	Child:	630
+	Child:	634
+	Child:	638
+	Child:	642
+	Child:	646
+	Child:	650
+	Child:	654
+	Child:	658
+	Child:	662
+	Child:	666
+	Child:	670
+	Child:	674
+	Child:	678
+	Child:	682
+	Child:	686
+	Child:	690
+	Child:	694
+	Child:	698
+	Child:	702
+	Child:	706
+	Child:	710
+	Child:	714
+	Child:	718
+	Child:	722
+	Child:	726
+	Child:	730
+	Child:	734
+	Child:	738
+	Child:	742
+	Child:	746
+	Child:	750
+	Child:	754
+	Child:	758
+	Child:	762
+	Child:	766
+	Child:	770
+	Child:	774
+	Child:	778
+	Child:	782
+	Child:	786
+	Child:	790
+	Child:	794
+	Child:	798
+	Child:	802
+	Child:	806
+	Child:	810
+	Child:	814
+	Child:	818
+	Child:	822
+	Child:	826
+	Child:	830
+	Child:	834
+	Child:	838
+	Child:	842
+	Child:	846
+	Child:	850
+	Child:	854
+	Child:	858
+	Child:	862
+	Child:	866
+	Child:	870
+	Child:	874
+	Child:	878
+	Child:	882
+	Child:	886
+	Child:	890
+	Child:	894
+	Child:	898
+	Child:	902
+	Child:	906
+	Child:	910
+	Child:	914
+	Child:	918
+	Child:	922
+	Child:	926
+	Child:	930
+	Child:	934
+	Child:	938
+	Child:	942
+	Child:	946
+	Child:	950
+	Child:	954
+	Child:	958
+	Child:	962
+	Child:	966
+	Child:	970
+	Child:	974
+	Child:	978
+	Child:	982
+	Child:	986
+	Child:	990
+	Child:	994
+	Child:	998
+	Child:	1002
+	Child:	1006
+	Child:	1010
+	Child:	1014
+	Child:	1018
+	Child:	1022
+	Child:	1026
+	Child:	1030
+	Child:	1034
+	Child:	1038
+	Child:	1042
+	Child:	1046
+)
+
+(BShSym.42
+	Color:	43
+	Outline:	1
+	OutlineColor:	44
+	OutlineWidth:	0.10000000000000
+	BgColor:	45
+)
+
+(TClr.43
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.44
+)
+
+(TClr.45
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.46
+	Color:	47
+	Outline:	1
+	OutlineColor:	48
+	OutlineWidth:	0.10000000000000
+	BgColor:	49
+)
+
+(TClr.47
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.48
+)
+
+(TClr.49
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.50
+	Color:	51
+	Outline:	1
+	OutlineColor:	52
+	OutlineWidth:	0.10000000000000
+	BgColor:	53
+)
+
+(TClr.51
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.52
+)
+
+(TClr.53
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.54
+	Color:	55
+	Outline:	1
+	OutlineColor:	56
+	OutlineWidth:	0.10000000000000
+	BgColor:	57
+)
+
+(TClr.55
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.56
+)
+
+(TClr.57
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.58
+	Color:	59
+	Outline:	1
+	OutlineColor:	60
+	OutlineWidth:	0.10000000000000
+	BgColor:	61
+)
+
+(TClr.59
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.60
+)
+
+(TClr.61
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.62
+	Color:	63
+	Outline:	1
+	OutlineColor:	64
+	OutlineWidth:	0.10000000000000
+	BgColor:	65
+)
+
+(TClr.63
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.64
+)
+
+(TClr.65
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.66
+	Color:	67
+	Outline:	1
+	OutlineColor:	68
+	OutlineWidth:	0.10000000000000
+	BgColor:	69
+)
+
+(TClr.67
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.68
+)
+
+(TClr.69
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.70
+	Color:	71
+	Outline:	1
+	OutlineColor:	72
+	OutlineWidth:	0.10000000000000
+	BgColor:	73
+)
+
+(TClr.71
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.72
+)
+
+(TClr.73
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.74
+	Color:	75
+	Outline:	1
+	OutlineColor:	76
+	OutlineWidth:	0.10000000000000
+	BgColor:	77
+)
+
+(TClr.75
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.76
+)
+
+(TClr.77
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.78
+	Color:	79
+	Outline:	1
+	OutlineColor:	80
+	OutlineWidth:	0.10000000000000
+	BgColor:	81
+)
+
+(TClr.79
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.80
+)
+
+(TClr.81
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.82
+	Color:	83
+	Outline:	1
+	OutlineColor:	84
+	OutlineWidth:	0.10000000000000
+	BgColor:	85
+)
+
+(TClr.83
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.84
+)
+
+(TClr.85
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.86
+	Color:	87
+	Outline:	1
+	OutlineColor:	88
+	OutlineWidth:	0.10000000000000
+	BgColor:	89
+)
+
+(TClr.87
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.88
+)
+
+(TClr.89
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.90
+	Color:	91
+	Outline:	1
+	OutlineColor:	92
+	OutlineWidth:	0.10000000000000
+	BgColor:	93
+)
+
+(TClr.91
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.92
+)
+
+(TClr.93
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.94
+	Color:	95
+	Outline:	1
+	OutlineColor:	96
+	OutlineWidth:	0.10000000000000
+	BgColor:	97
+)
+
+(TClr.95
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.96
+)
+
+(TClr.97
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.98
+	Color:	99
+	Outline:	1
+	OutlineColor:	100
+	OutlineWidth:	0.10000000000000
+	BgColor:	101
+)
+
+(TClr.99
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.100
+)
+
+(TClr.101
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.102
+	Color:	103
+	Outline:	1
+	OutlineColor:	104
+	OutlineWidth:	0.10000000000000
+	BgColor:	105
+)
+
+(TClr.103
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.104
+)
+
+(TClr.105
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.106
+	Color:	107
+	Outline:	1
+	OutlineColor:	108
+	OutlineWidth:	0.10000000000000
+	BgColor:	109
+)
+
+(TClr.107
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.108
+)
+
+(TClr.109
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.110
+	Color:	111
+	Outline:	1
+	OutlineColor:	112
+	OutlineWidth:	0.10000000000000
+	BgColor:	113
+)
+
+(TClr.111
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.112
+)
+
+(TClr.113
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.114
+	Color:	115
+	Outline:	1
+	OutlineColor:	116
+	OutlineWidth:	0.10000000000000
+	BgColor:	117
+)
+
+(TClr.115
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.116
+)
+
+(TClr.117
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.118
+	Color:	119
+	Outline:	1
+	OutlineColor:	120
+	OutlineWidth:	0.10000000000000
+	BgColor:	121
+)
+
+(TClr.119
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.120
+)
+
+(TClr.121
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.122
+	Color:	123
+	Outline:	1
+	OutlineColor:	124
+	OutlineWidth:	0.10000000000000
+	BgColor:	125
+)
+
+(TClr.123
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.124
+)
+
+(TClr.125
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.126
+	Color:	127
+	Outline:	1
+	OutlineColor:	128
+	OutlineWidth:	0.10000000000000
+	BgColor:	129
+)
+
+(TClr.127
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.128
+)
+
+(TClr.129
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.130
+	Color:	131
+	Outline:	1
+	OutlineColor:	132
+	OutlineWidth:	0.10000000000000
+	BgColor:	133
+)
+
+(TClr.131
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.132
+)
+
+(TClr.133
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.134
+	Color:	135
+	Outline:	1
+	OutlineColor:	136
+	OutlineWidth:	0.10000000000000
+	BgColor:	137
+)
+
+(TClr.135
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.136
+)
+
+(TClr.137
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.138
+	Color:	139
+	Outline:	1
+	OutlineColor:	140
+	OutlineWidth:	0.10000000000000
+	BgColor:	141
+)
+
+(TClr.139
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.140
+)
+
+(TClr.141
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.142
+	Color:	143
+	Outline:	1
+	OutlineColor:	144
+	OutlineWidth:	0.10000000000000
+	BgColor:	145
+)
+
+(TClr.143
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.144
+)
+
+(TClr.145
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.146
+	Color:	147
+	Outline:	1
+	OutlineColor:	148
+	OutlineWidth:	0.10000000000000
+	BgColor:	149
+)
+
+(TClr.147
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.148
+)
+
+(TClr.149
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.150
+	Color:	151
+	Outline:	1
+	OutlineColor:	152
+	OutlineWidth:	0.10000000000000
+	BgColor:	153
+)
+
+(TClr.151
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.152
+)
+
+(TClr.153
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.154
+	Color:	155
+	Outline:	1
+	OutlineColor:	156
+	OutlineWidth:	0.10000000000000
+	BgColor:	157
+)
+
+(TClr.155
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.156
+)
+
+(TClr.157
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.158
+	Color:	159
+	Outline:	1
+	OutlineColor:	160
+	OutlineWidth:	0.10000000000000
+	BgColor:	161
+)
+
+(TClr.159
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.160
+)
+
+(TClr.161
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.162
+	Color:	163
+	Outline:	1
+	OutlineColor:	164
+	OutlineWidth:	0.10000000000000
+	BgColor:	165
+)
+
+(TClr.163
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.164
+)
+
+(TClr.165
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.166
+	Color:	167
+	Outline:	1
+	OutlineColor:	168
+	OutlineWidth:	0.10000000000000
+	BgColor:	169
+)
+
+(TClr.167
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.168
+)
+
+(TClr.169
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.170
+	Color:	171
+	Outline:	1
+	OutlineColor:	172
+	OutlineWidth:	0.10000000000000
+	BgColor:	173
+)
+
+(TClr.171
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.172
+)
+
+(TClr.173
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.174
+	Color:	175
+	Outline:	1
+	OutlineColor:	176
+	OutlineWidth:	0.10000000000000
+	BgColor:	177
+)
+
+(TClr.175
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.176
+)
+
+(TClr.177
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.178
+	Color:	179
+	Outline:	1
+	OutlineColor:	180
+	OutlineWidth:	0.10000000000000
+	BgColor:	181
+)
+
+(TClr.179
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.180
+)
+
+(TClr.181
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.182
+	Color:	183
+	Outline:	1
+	OutlineColor:	184
+	OutlineWidth:	0.10000000000000
+	BgColor:	185
+)
+
+(TClr.183
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.184
+)
+
+(TClr.185
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.186
+	Color:	187
+	Outline:	1
+	OutlineColor:	188
+	OutlineWidth:	0.10000000000000
+	BgColor:	189
+)
+
+(TClr.187
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.188
+)
+
+(TClr.189
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.190
+	Color:	191
+	Outline:	1
+	OutlineColor:	192
+	OutlineWidth:	0.10000000000000
+	BgColor:	193
+)
+
+(TClr.191
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.192
+)
+
+(TClr.193
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.194
+	Color:	195
+	Outline:	1
+	OutlineColor:	196
+	OutlineWidth:	0.10000000000000
+	BgColor:	197
+)
+
+(TClr.195
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.196
+)
+
+(TClr.197
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.198
+	Color:	199
+	Outline:	1
+	OutlineColor:	200
+	OutlineWidth:	0.10000000000000
+	BgColor:	201
+)
+
+(TClr.199
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.200
+)
+
+(TClr.201
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.202
+	Color:	203
+	Outline:	1
+	OutlineColor:	204
+	OutlineWidth:	0.10000000000000
+	BgColor:	205
+)
+
+(TClr.203
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.204
+)
+
+(TClr.205
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.206
+	Color:	207
+	Outline:	1
+	OutlineColor:	208
+	OutlineWidth:	0.10000000000000
+	BgColor:	209
+)
+
+(TClr.207
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.208
+)
+
+(TClr.209
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.210
+	Color:	211
+	Outline:	1
+	OutlineColor:	212
+	OutlineWidth:	0.10000000000000
+	BgColor:	213
+)
+
+(TClr.211
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.212
+)
+
+(TClr.213
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.214
+	Color:	215
+	Outline:	1
+	OutlineColor:	216
+	OutlineWidth:	0.10000000000000
+	BgColor:	217
+)
+
+(TClr.215
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.216
+)
+
+(TClr.217
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.218
+	Color:	219
+	Outline:	1
+	OutlineColor:	220
+	OutlineWidth:	0.10000000000000
+	BgColor:	221
+)
+
+(TClr.219
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.220
+)
+
+(TClr.221
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.222
+	Color:	223
+	Outline:	1
+	OutlineColor:	224
+	OutlineWidth:	0.10000000000000
+	BgColor:	225
+)
+
+(TClr.223
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.224
+)
+
+(TClr.225
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.226
+	Color:	227
+	Outline:	1
+	OutlineColor:	228
+	OutlineWidth:	0.10000000000000
+	BgColor:	229
+)
+
+(TClr.227
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.228
+)
+
+(TClr.229
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.230
+	Color:	231
+	Outline:	1
+	OutlineColor:	232
+	OutlineWidth:	0.10000000000000
+	BgColor:	233
+)
+
+(TClr.231
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.232
+)
+
+(TClr.233
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.234
+	Color:	235
+	Outline:	1
+	OutlineColor:	236
+	OutlineWidth:	0.10000000000000
+	BgColor:	237
+)
+
+(TClr.235
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.236
+)
+
+(TClr.237
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.238
+	Color:	239
+	Outline:	1
+	OutlineColor:	240
+	OutlineWidth:	0.10000000000000
+	BgColor:	241
+)
+
+(TClr.239
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.240
+)
+
+(TClr.241
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.242
+	Color:	243
+	Outline:	1
+	OutlineColor:	244
+	OutlineWidth:	0.10000000000000
+	BgColor:	245
+)
+
+(TClr.243
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.244
+)
+
+(TClr.245
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.246
+	Color:	247
+	Outline:	1
+	OutlineColor:	248
+	OutlineWidth:	0.10000000000000
+	BgColor:	249
+)
+
+(TClr.247
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.248
+)
+
+(TClr.249
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.250
+	Color:	251
+	Outline:	1
+	OutlineColor:	252
+	OutlineWidth:	0.10000000000000
+	BgColor:	253
+)
+
+(TClr.251
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.252
+)
+
+(TClr.253
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.254
+	Color:	255
+	Outline:	1
+	OutlineColor:	256
+	OutlineWidth:	0.10000000000000
+	BgColor:	257
+)
+
+(TClr.255
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.256
+)
+
+(TClr.257
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.258
+	Color:	259
+	Outline:	1
+	OutlineColor:	260
+	OutlineWidth:	0.10000000000000
+	BgColor:	261
+)
+
+(TClr.259
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.260
+)
+
+(TClr.261
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.262
+	Color:	263
+	Outline:	1
+	OutlineColor:	264
+	OutlineWidth:	0.10000000000000
+	BgColor:	265
+)
+
+(TClr.263
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.264
+)
+
+(TClr.265
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.266
+	Color:	267
+	Outline:	1
+	OutlineColor:	268
+	OutlineWidth:	0.10000000000000
+	BgColor:	269
+)
+
+(TClr.267
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.268
+)
+
+(TClr.269
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.270
+	Color:	271
+	Outline:	1
+	OutlineColor:	272
+	OutlineWidth:	0.10000000000000
+	BgColor:	273
+)
+
+(TClr.271
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.272
+)
+
+(TClr.273
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.274
+	Color:	275
+	Outline:	1
+	OutlineColor:	276
+	OutlineWidth:	0.10000000000000
+	BgColor:	277
+)
+
+(TClr.275
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.276
+)
+
+(TClr.277
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.278
+	Color:	279
+	Outline:	1
+	OutlineColor:	280
+	OutlineWidth:	0.10000000000000
+	BgColor:	281
+)
+
+(TClr.279
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.280
+)
+
+(TClr.281
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.282
+	Color:	283
+	Outline:	1
+	OutlineColor:	284
+	OutlineWidth:	0.10000000000000
+	BgColor:	285
+)
+
+(TClr.283
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.284
+)
+
+(TClr.285
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.286
+	Color:	287
+	Outline:	1
+	OutlineColor:	288
+	OutlineWidth:	0.10000000000000
+	BgColor:	289
+)
+
+(TClr.287
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.288
+)
+
+(TClr.289
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.290
+	Color:	291
+	Outline:	1
+	OutlineColor:	292
+	OutlineWidth:	0.10000000000000
+	BgColor:	293
+)
+
+(TClr.291
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.292
+)
+
+(TClr.293
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.294
+	Color:	295
+	Outline:	1
+	OutlineColor:	296
+	OutlineWidth:	0.10000000000000
+	BgColor:	297
+)
+
+(TClr.295
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.296
+)
+
+(TClr.297
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.298
+	Color:	299
+	Outline:	1
+	OutlineColor:	300
+	OutlineWidth:	0.10000000000000
+	BgColor:	301
+)
+
+(TClr.299
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.300
+)
+
+(TClr.301
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.302
+	Color:	303
+	Outline:	1
+	OutlineColor:	304
+	OutlineWidth:	0.10000000000000
+	BgColor:	305
+)
+
+(TClr.303
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.304
+)
+
+(TClr.305
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.306
+	Color:	307
+	Outline:	1
+	OutlineColor:	308
+	OutlineWidth:	0.10000000000000
+	BgColor:	309
+)
+
+(TClr.307
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.308
+)
+
+(TClr.309
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.310
+	Color:	311
+	Outline:	1
+	OutlineColor:	312
+	OutlineWidth:	0.10000000000000
+	BgColor:	313
+)
+
+(TClr.311
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.312
+)
+
+(TClr.313
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.314
+	Color:	315
+	Outline:	1
+	OutlineColor:	316
+	OutlineWidth:	0.10000000000000
+	BgColor:	317
+)
+
+(TClr.315
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.316
+)
+
+(TClr.317
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.318
+	Color:	319
+	Outline:	1
+	OutlineColor:	320
+	OutlineWidth:	0.10000000000000
+	BgColor:	321
+)
+
+(TClr.319
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.320
+)
+
+(TClr.321
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.322
+	Color:	323
+	Outline:	1
+	OutlineColor:	324
+	OutlineWidth:	0.10000000000000
+	BgColor:	325
+)
+
+(TClr.323
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.324
+)
+
+(TClr.325
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.326
+	Color:	327
+	Outline:	1
+	OutlineColor:	328
+	OutlineWidth:	0.10000000000000
+	BgColor:	329
+)
+
+(TClr.327
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.328
+)
+
+(TClr.329
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.330
+	Color:	331
+	Outline:	1
+	OutlineColor:	332
+	OutlineWidth:	0.10000000000000
+	BgColor:	333
+)
+
+(TClr.331
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.332
+)
+
+(TClr.333
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.334
+	Color:	335
+	Outline:	1
+	OutlineColor:	336
+	OutlineWidth:	0.10000000000000
+	BgColor:	337
+)
+
+(TClr.335
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.336
+)
+
+(TClr.337
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.338
+	Color:	339
+	Outline:	1
+	OutlineColor:	340
+	OutlineWidth:	0.10000000000000
+	BgColor:	341
+)
+
+(TClr.339
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.340
+)
+
+(TClr.341
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.342
+	Color:	343
+	Outline:	1
+	OutlineColor:	344
+	OutlineWidth:	0.10000000000000
+	BgColor:	345
+)
+
+(TClr.343
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.344
+)
+
+(TClr.345
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.346
+	Color:	347
+	Outline:	1
+	OutlineColor:	348
+	OutlineWidth:	0.10000000000000
+	BgColor:	349
+)
+
+(TClr.347
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.348
+)
+
+(TClr.349
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.350
+	Color:	351
+	Outline:	1
+	OutlineColor:	352
+	OutlineWidth:	0.10000000000000
+	BgColor:	353
+)
+
+(TClr.351
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.352
+)
+
+(TClr.353
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.354
+	Color:	355
+	Outline:	1
+	OutlineColor:	356
+	OutlineWidth:	0.10000000000000
+	BgColor:	357
+)
+
+(TClr.355
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.356
+)
+
+(TClr.357
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.358
+	Color:	359
+	Outline:	1
+	OutlineColor:	360
+	OutlineWidth:	0.10000000000000
+	BgColor:	361
+)
+
+(TClr.359
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.360
+)
+
+(TClr.361
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.362
+	Color:	363
+	Outline:	1
+	OutlineColor:	364
+	OutlineWidth:	0.10000000000000
+	BgColor:	365
+)
+
+(TClr.363
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.364
+)
+
+(TClr.365
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.366
+	Color:	367
+	Outline:	1
+	OutlineColor:	368
+	OutlineWidth:	0.10000000000000
+	BgColor:	369
+)
+
+(TClr.367
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.368
+)
+
+(TClr.369
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.370
+	Color:	371
+	Outline:	1
+	OutlineColor:	372
+	OutlineWidth:	0.10000000000000
+	BgColor:	373
+)
+
+(TClr.371
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.372
+)
+
+(TClr.373
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.374
+	Color:	375
+	Outline:	1
+	OutlineColor:	376
+	OutlineWidth:	0.10000000000000
+	BgColor:	377
+)
+
+(TClr.375
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.376
+)
+
+(TClr.377
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.378
+	Color:	379
+	Outline:	1
+	OutlineColor:	380
+	OutlineWidth:	0.10000000000000
+	BgColor:	381
+)
+
+(TClr.379
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.380
+)
+
+(TClr.381
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.382
+	Color:	383
+	Outline:	1
+	OutlineColor:	384
+	OutlineWidth:	0.10000000000000
+	BgColor:	385
+)
+
+(TClr.383
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.384
+)
+
+(TClr.385
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.386
+	Color:	387
+	Outline:	1
+	OutlineColor:	388
+	OutlineWidth:	0.10000000000000
+	BgColor:	389
+)
+
+(TClr.387
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.388
+)
+
+(TClr.389
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.390
+	Color:	391
+	Outline:	1
+	OutlineColor:	392
+	OutlineWidth:	0.10000000000000
+	BgColor:	393
+)
+
+(TClr.391
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.392
+)
+
+(TClr.393
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.394
+	Color:	395
+	Outline:	1
+	OutlineColor:	396
+	OutlineWidth:	0.10000000000000
+	BgColor:	397
+)
+
+(TClr.395
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.396
+)
+
+(TClr.397
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.398
+	Color:	399
+	Outline:	1
+	OutlineColor:	400
+	OutlineWidth:	0.10000000000000
+	BgColor:	401
+)
+
+(TClr.399
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.400
+)
+
+(TClr.401
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.402
+	Color:	403
+	Outline:	1
+	OutlineColor:	404
+	OutlineWidth:	0.10000000000000
+	BgColor:	405
+)
+
+(TClr.403
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.404
+)
+
+(TClr.405
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.406
+	Color:	407
+	Outline:	1
+	OutlineColor:	408
+	OutlineWidth:	0.10000000000000
+	BgColor:	409
+)
+
+(TClr.407
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.408
+)
+
+(TClr.409
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.410
+	Color:	411
+	Outline:	1
+	OutlineColor:	412
+	OutlineWidth:	0.10000000000000
+	BgColor:	413
+)
+
+(TClr.411
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.412
+)
+
+(TClr.413
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.414
+	Color:	415
+	Outline:	1
+	OutlineColor:	416
+	OutlineWidth:	0.10000000000000
+	BgColor:	417
+)
+
+(TClr.415
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.416
+)
+
+(TClr.417
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.418
+	Color:	419
+	Outline:	1
+	OutlineColor:	420
+	OutlineWidth:	0.10000000000000
+	BgColor:	421
+)
+
+(TClr.419
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.420
+)
+
+(TClr.421
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.422
+	Color:	423
+	Outline:	1
+	OutlineColor:	424
+	OutlineWidth:	0.10000000000000
+	BgColor:	425
+)
+
+(TClr.423
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.424
+)
+
+(TClr.425
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.426
+	Color:	427
+	Outline:	1
+	OutlineColor:	428
+	OutlineWidth:	0.10000000000000
+	BgColor:	429
+)
+
+(TClr.427
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.428
+)
+
+(TClr.429
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.430
+	Color:	431
+	Outline:	1
+	OutlineColor:	432
+	OutlineWidth:	0.10000000000000
+	BgColor:	433
+)
+
+(TClr.431
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.432
+)
+
+(TClr.433
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.434
+	Color:	435
+	Outline:	1
+	OutlineColor:	436
+	OutlineWidth:	0.10000000000000
+	BgColor:	437
+)
+
+(TClr.435
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.436
+)
+
+(TClr.437
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.438
+	Color:	439
+	Outline:	1
+	OutlineColor:	440
+	OutlineWidth:	0.10000000000000
+	BgColor:	441
+)
+
+(TClr.439
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.440
+)
+
+(TClr.441
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.442
+	Color:	443
+	Outline:	1
+	OutlineColor:	444
+	OutlineWidth:	0.10000000000000
+	BgColor:	445
+)
+
+(TClr.443
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.444
+)
+
+(TClr.445
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.446
+	Color:	447
+	Outline:	1
+	OutlineColor:	448
+	OutlineWidth:	0.10000000000000
+	BgColor:	449
+)
+
+(TClr.447
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.448
+)
+
+(TClr.449
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.450
+	Color:	451
+	Outline:	1
+	OutlineColor:	452
+	OutlineWidth:	0.10000000000000
+	BgColor:	453
+)
+
+(TClr.451
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.452
+)
+
+(TClr.453
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.454
+	Color:	455
+	Outline:	1
+	OutlineColor:	456
+	OutlineWidth:	0.10000000000000
+	BgColor:	457
+)
+
+(TClr.455
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.456
+)
+
+(TClr.457
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.458
+	Color:	459
+	Outline:	1
+	OutlineColor:	460
+	OutlineWidth:	0.10000000000000
+	BgColor:	461
+)
+
+(TClr.459
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.460
+)
+
+(TClr.461
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.462
+	Color:	463
+	Outline:	1
+	OutlineColor:	464
+	OutlineWidth:	0.10000000000000
+	BgColor:	465
+)
+
+(TClr.463
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.464
+)
+
+(TClr.465
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.466
+	Color:	467
+	Outline:	1
+	OutlineColor:	468
+	OutlineWidth:	0.10000000000000
+	BgColor:	469
+)
+
+(TClr.467
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.468
+)
+
+(TClr.469
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.470
+	Color:	471
+	Outline:	1
+	OutlineColor:	472
+	OutlineWidth:	0.10000000000000
+	BgColor:	473
+)
+
+(TClr.471
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.472
+)
+
+(TClr.473
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.474
+	Color:	475
+	Outline:	1
+	OutlineColor:	476
+	OutlineWidth:	0.10000000000000
+	BgColor:	477
+)
+
+(TClr.475
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.476
+)
+
+(TClr.477
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.478
+	Color:	479
+	Outline:	1
+	OutlineColor:	480
+	OutlineWidth:	0.10000000000000
+	BgColor:	481
+)
+
+(TClr.479
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.480
+)
+
+(TClr.481
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.482
+	Color:	483
+	Outline:	1
+	OutlineColor:	484
+	OutlineWidth:	0.10000000000000
+	BgColor:	485
+)
+
+(TClr.483
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.484
+)
+
+(TClr.485
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.486
+	Color:	487
+	Outline:	1
+	OutlineColor:	488
+	OutlineWidth:	0.10000000000000
+	BgColor:	489
+)
+
+(TClr.487
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.488
+)
+
+(TClr.489
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.490
+	Color:	491
+	Outline:	1
+	OutlineColor:	492
+	OutlineWidth:	0.10000000000000
+	BgColor:	493
+)
+
+(TClr.491
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.492
+)
+
+(TClr.493
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.494
+	Color:	495
+	Outline:	1
+	OutlineColor:	496
+	OutlineWidth:	0.10000000000000
+	BgColor:	497
+)
+
+(TClr.495
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.496
+)
+
+(TClr.497
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.498
+	Color:	499
+	Outline:	1
+	OutlineColor:	500
+	OutlineWidth:	0.10000000000000
+	BgColor:	501
+)
+
+(TClr.499
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.500
+)
+
+(TClr.501
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.502
+	Color:	503
+	Outline:	1
+	OutlineColor:	504
+	OutlineWidth:	0.10000000000000
+	BgColor:	505
+)
+
+(TClr.503
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.504
+)
+
+(TClr.505
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.506
+	Color:	507
+	Outline:	1
+	OutlineColor:	508
+	OutlineWidth:	0.10000000000000
+	BgColor:	509
+)
+
+(TClr.507
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.508
+)
+
+(TClr.509
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.510
+	Color:	511
+	Outline:	1
+	OutlineColor:	512
+	OutlineWidth:	0.10000000000000
+	BgColor:	513
+)
+
+(TClr.511
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.512
+)
+
+(TClr.513
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.514
+	Color:	515
+	Outline:	1
+	OutlineColor:	516
+	OutlineWidth:	0.10000000000000
+	BgColor:	517
+)
+
+(TClr.515
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.516
+)
+
+(TClr.517
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.518
+	Color:	519
+	Outline:	1
+	OutlineColor:	520
+	OutlineWidth:	0.10000000000000
+	BgColor:	521
+)
+
+(TClr.519
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.520
+)
+
+(TClr.521
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.522
+	Color:	523
+	Outline:	1
+	OutlineColor:	524
+	OutlineWidth:	0.10000000000000
+	BgColor:	525
+)
+
+(TClr.523
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.524
+)
+
+(TClr.525
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.526
+	Color:	527
+	Outline:	1
+	OutlineColor:	528
+	OutlineWidth:	0.10000000000000
+	BgColor:	529
+)
+
+(TClr.527
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.528
+)
+
+(TClr.529
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.530
+	Color:	531
+	Outline:	1
+	OutlineColor:	532
+	OutlineWidth:	0.10000000000000
+	BgColor:	533
+)
+
+(TClr.531
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.532
+)
+
+(TClr.533
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.534
+	Color:	535
+	Outline:	1
+	OutlineColor:	536
+	OutlineWidth:	0.10000000000000
+	BgColor:	537
+)
+
+(TClr.535
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.536
+)
+
+(TClr.537
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.538
+	Color:	539
+	Outline:	1
+	OutlineColor:	540
+	OutlineWidth:	0.10000000000000
+	BgColor:	541
+)
+
+(TClr.539
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.540
+)
+
+(TClr.541
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.542
+	Color:	543
+	Outline:	1
+	OutlineColor:	544
+	OutlineWidth:	0.10000000000000
+	BgColor:	545
+)
+
+(TClr.543
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.544
+)
+
+(TClr.545
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.546
+	Color:	547
+	Outline:	1
+	OutlineColor:	548
+	OutlineWidth:	0.10000000000000
+	BgColor:	549
+)
+
+(TClr.547
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.548
+)
+
+(TClr.549
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.550
+	Color:	551
+	Outline:	1
+	OutlineColor:	552
+	OutlineWidth:	0.10000000000000
+	BgColor:	553
+)
+
+(TClr.551
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.552
+)
+
+(TClr.553
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.554
+	Color:	555
+	Outline:	1
+	OutlineColor:	556
+	OutlineWidth:	0.10000000000000
+	BgColor:	557
+)
+
+(TClr.555
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.556
+)
+
+(TClr.557
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.558
+	Color:	559
+	Outline:	1
+	OutlineColor:	560
+	OutlineWidth:	0.10000000000000
+	BgColor:	561
+)
+
+(TClr.559
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.560
+)
+
+(TClr.561
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.562
+	Color:	563
+	Outline:	1
+	OutlineColor:	564
+	OutlineWidth:	0.10000000000000
+	BgColor:	565
+)
+
+(TClr.563
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.564
+)
+
+(TClr.565
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.566
+	Color:	567
+	Outline:	1
+	OutlineColor:	568
+	OutlineWidth:	0.10000000000000
+	BgColor:	569
+)
+
+(TClr.567
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.568
+)
+
+(TClr.569
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.570
+	Color:	571
+	Outline:	1
+	OutlineColor:	572
+	OutlineWidth:	0.10000000000000
+	BgColor:	573
+)
+
+(TClr.571
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.572
+)
+
+(TClr.573
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.574
+	Color:	575
+	Outline:	1
+	OutlineColor:	576
+	OutlineWidth:	0.10000000000000
+	BgColor:	577
+)
+
+(TClr.575
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.576
+)
+
+(TClr.577
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.578
+	Color:	579
+	Outline:	1
+	OutlineColor:	580
+	OutlineWidth:	0.10000000000000
+	BgColor:	581
+)
+
+(TClr.579
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.580
+)
+
+(TClr.581
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.582
+	Color:	583
+	Outline:	1
+	OutlineColor:	584
+	OutlineWidth:	0.10000000000000
+	BgColor:	585
+)
+
+(TClr.583
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.584
+)
+
+(TClr.585
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.586
+	Color:	587
+	Outline:	1
+	OutlineColor:	588
+	OutlineWidth:	0.10000000000000
+	BgColor:	589
+)
+
+(TClr.587
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.588
+)
+
+(TClr.589
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.590
+	Color:	591
+	Outline:	1
+	OutlineColor:	592
+	OutlineWidth:	0.10000000000000
+	BgColor:	593
+)
+
+(TClr.591
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.592
+)
+
+(TClr.593
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.594
+	Color:	595
+	Outline:	1
+	OutlineColor:	596
+	OutlineWidth:	0.10000000000000
+	BgColor:	597
+)
+
+(TClr.595
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.596
+)
+
+(TClr.597
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.598
+	Color:	599
+	Outline:	1
+	OutlineColor:	600
+	OutlineWidth:	0.10000000000000
+	BgColor:	601
+)
+
+(TClr.599
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.600
+)
+
+(TClr.601
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.602
+	Color:	603
+	Outline:	1
+	OutlineColor:	604
+	OutlineWidth:	0.10000000000000
+	BgColor:	605
+)
+
+(TClr.603
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.604
+)
+
+(TClr.605
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.606
+	Color:	607
+	Outline:	1
+	OutlineColor:	608
+	OutlineWidth:	0.10000000000000
+	BgColor:	609
+)
+
+(TClr.607
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.608
+)
+
+(TClr.609
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.610
+	Color:	611
+	Outline:	1
+	OutlineColor:	612
+	OutlineWidth:	0.10000000000000
+	BgColor:	613
+)
+
+(TClr.611
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.612
+)
+
+(TClr.613
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.614
+	Color:	615
+	Outline:	1
+	OutlineColor:	616
+	OutlineWidth:	0.10000000000000
+	BgColor:	617
+)
+
+(TClr.615
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.616
+)
+
+(TClr.617
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.618
+	Color:	619
+	Outline:	1
+	OutlineColor:	620
+	OutlineWidth:	0.10000000000000
+	BgColor:	621
+)
+
+(TClr.619
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.620
+)
+
+(TClr.621
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.622
+	Color:	623
+	Outline:	1
+	OutlineColor:	624
+	OutlineWidth:	0.10000000000000
+	BgColor:	625
+)
+
+(TClr.623
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.624
+)
+
+(TClr.625
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.626
+	Color:	627
+	Outline:	1
+	OutlineColor:	628
+	OutlineWidth:	0.10000000000000
+	BgColor:	629
+)
+
+(TClr.627
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.628
+)
+
+(TClr.629
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.630
+	Color:	631
+	Outline:	1
+	OutlineColor:	632
+	OutlineWidth:	0.10000000000000
+	BgColor:	633
+)
+
+(TClr.631
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.632
+)
+
+(TClr.633
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.634
+	Color:	635
+	Outline:	1
+	OutlineColor:	636
+	OutlineWidth:	0.10000000000000
+	BgColor:	637
+)
+
+(TClr.635
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.636
+)
+
+(TClr.637
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.638
+	Color:	639
+	Outline:	1
+	OutlineColor:	640
+	OutlineWidth:	0.10000000000000
+	BgColor:	641
+)
+
+(TClr.639
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.640
+)
+
+(TClr.641
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.642
+	Color:	643
+	Outline:	1
+	OutlineColor:	644
+	OutlineWidth:	0.10000000000000
+	BgColor:	645
+)
+
+(TClr.643
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.644
+)
+
+(TClr.645
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.646
+	Color:	647
+	Outline:	1
+	OutlineColor:	648
+	OutlineWidth:	0.10000000000000
+	BgColor:	649
+)
+
+(TClr.647
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.648
+)
+
+(TClr.649
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.650
+	Color:	651
+	Outline:	1
+	OutlineColor:	652
+	OutlineWidth:	0.10000000000000
+	BgColor:	653
+)
+
+(TClr.651
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.652
+)
+
+(TClr.653
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.654
+	Color:	655
+	Outline:	1
+	OutlineColor:	656
+	OutlineWidth:	0.10000000000000
+	BgColor:	657
+)
+
+(TClr.655
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.656
+)
+
+(TClr.657
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.658
+	Color:	659
+	Outline:	1
+	OutlineColor:	660
+	OutlineWidth:	0.10000000000000
+	BgColor:	661
+)
+
+(TClr.659
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.660
+)
+
+(TClr.661
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.662
+	Color:	663
+	Outline:	1
+	OutlineColor:	664
+	OutlineWidth:	0.10000000000000
+	BgColor:	665
+)
+
+(TClr.663
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.664
+)
+
+(TClr.665
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.666
+	Color:	667
+	Outline:	1
+	OutlineColor:	668
+	OutlineWidth:	0.10000000000000
+	BgColor:	669
+)
+
+(TClr.667
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.668
+)
+
+(TClr.669
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.670
+	Color:	671
+	Outline:	1
+	OutlineColor:	672
+	OutlineWidth:	0.10000000000000
+	BgColor:	673
+)
+
+(TClr.671
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.672
+)
+
+(TClr.673
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.674
+	Color:	675
+	Outline:	1
+	OutlineColor:	676
+	OutlineWidth:	0.10000000000000
+	BgColor:	677
+)
+
+(TClr.675
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.676
+)
+
+(TClr.677
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.678
+	Color:	679
+	Outline:	1
+	OutlineColor:	680
+	OutlineWidth:	0.10000000000000
+	BgColor:	681
+)
+
+(TClr.679
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.680
+)
+
+(TClr.681
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.682
+	Color:	683
+	Outline:	1
+	OutlineColor:	684
+	OutlineWidth:	0.10000000000000
+	BgColor:	685
+)
+
+(TClr.683
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.684
+)
+
+(TClr.685
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.686
+	Color:	687
+	Outline:	1
+	OutlineColor:	688
+	OutlineWidth:	0.10000000000000
+	BgColor:	689
+)
+
+(TClr.687
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.688
+)
+
+(TClr.689
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.690
+	Color:	691
+	Outline:	1
+	OutlineColor:	692
+	OutlineWidth:	0.10000000000000
+	BgColor:	693
+)
+
+(TClr.691
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.692
+)
+
+(TClr.693
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.694
+	Color:	695
+	Outline:	1
+	OutlineColor:	696
+	OutlineWidth:	0.10000000000000
+	BgColor:	697
+)
+
+(TClr.695
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.696
+)
+
+(TClr.697
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.698
+	Color:	699
+	Outline:	1
+	OutlineColor:	700
+	OutlineWidth:	0.10000000000000
+	BgColor:	701
+)
+
+(TClr.699
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.700
+)
+
+(TClr.701
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.702
+	Color:	703
+	Outline:	1
+	OutlineColor:	704
+	OutlineWidth:	0.10000000000000
+	BgColor:	705
+)
+
+(TClr.703
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.704
+)
+
+(TClr.705
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.706
+	Color:	707
+	Outline:	1
+	OutlineColor:	708
+	OutlineWidth:	0.10000000000000
+	BgColor:	709
+)
+
+(TClr.707
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.708
+)
+
+(TClr.709
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.710
+	Color:	711
+	Outline:	1
+	OutlineColor:	712
+	OutlineWidth:	0.10000000000000
+	BgColor:	713
+)
+
+(TClr.711
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.712
+)
+
+(TClr.713
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.714
+	Color:	715
+	Outline:	1
+	OutlineColor:	716
+	OutlineWidth:	0.10000000000000
+	BgColor:	717
+)
+
+(TClr.715
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.716
+)
+
+(TClr.717
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.718
+	Color:	719
+	Outline:	1
+	OutlineColor:	720
+	OutlineWidth:	0.10000000000000
+	BgColor:	721
+)
+
+(TClr.719
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.720
+)
+
+(TClr.721
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.722
+	Color:	723
+	Outline:	1
+	OutlineColor:	724
+	OutlineWidth:	0.10000000000000
+	BgColor:	725
+)
+
+(TClr.723
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.724
+)
+
+(TClr.725
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.726
+	Color:	727
+	Outline:	1
+	OutlineColor:	728
+	OutlineWidth:	0.10000000000000
+	BgColor:	729
+)
+
+(TClr.727
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.728
+)
+
+(TClr.729
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.730
+	Color:	731
+	Outline:	1
+	OutlineColor:	732
+	OutlineWidth:	0.10000000000000
+	BgColor:	733
+)
+
+(TClr.731
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.732
+)
+
+(TClr.733
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.734
+	Color:	735
+	Outline:	1
+	OutlineColor:	736
+	OutlineWidth:	0.10000000000000
+	BgColor:	737
+)
+
+(TClr.735
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.736
+)
+
+(TClr.737
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.738
+	Color:	739
+	Outline:	1
+	OutlineColor:	740
+	OutlineWidth:	0.10000000000000
+	BgColor:	741
+)
+
+(TClr.739
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.740
+)
+
+(TClr.741
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.742
+	Color:	743
+	Outline:	1
+	OutlineColor:	744
+	OutlineWidth:	0.10000000000000
+	BgColor:	745
+)
+
+(TClr.743
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.744
+)
+
+(TClr.745
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.746
+	Color:	747
+	Outline:	1
+	OutlineColor:	748
+	OutlineWidth:	0.10000000000000
+	BgColor:	749
+)
+
+(TClr.747
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.748
+)
+
+(TClr.749
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.750
+	Color:	751
+	Outline:	1
+	OutlineColor:	752
+	OutlineWidth:	0.10000000000000
+	BgColor:	753
+)
+
+(TClr.751
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.752
+)
+
+(TClr.753
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.754
+	Color:	755
+	Outline:	1
+	OutlineColor:	756
+	OutlineWidth:	0.10000000000000
+	BgColor:	757
+)
+
+(TClr.755
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.756
+)
+
+(TClr.757
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.758
+	Color:	759
+	Outline:	1
+	OutlineColor:	760
+	OutlineWidth:	0.10000000000000
+	BgColor:	761
+)
+
+(TClr.759
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.760
+)
+
+(TClr.761
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.762
+	Color:	763
+	Outline:	1
+	OutlineColor:	764
+	OutlineWidth:	0.10000000000000
+	BgColor:	765
+)
+
+(TClr.763
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.764
+)
+
+(TClr.765
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.766
+	Color:	767
+	Outline:	1
+	OutlineColor:	768
+	OutlineWidth:	0.10000000000000
+	BgColor:	769
+)
+
+(TClr.767
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.768
+)
+
+(TClr.769
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.770
+	Color:	771
+	Outline:	1
+	OutlineColor:	772
+	OutlineWidth:	0.10000000000000
+	BgColor:	773
+)
+
+(TClr.771
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.772
+)
+
+(TClr.773
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.774
+	Color:	775
+	Outline:	1
+	OutlineColor:	776
+	OutlineWidth:	0.10000000000000
+	BgColor:	777
+)
+
+(TClr.775
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.776
+)
+
+(TClr.777
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.778
+	Color:	779
+	Outline:	1
+	OutlineColor:	780
+	OutlineWidth:	0.10000000000000
+	BgColor:	781
+)
+
+(TClr.779
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.780
+)
+
+(TClr.781
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.782
+	Color:	783
+	Outline:	1
+	OutlineColor:	784
+	OutlineWidth:	0.10000000000000
+	BgColor:	785
+)
+
+(TClr.783
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.784
+)
+
+(TClr.785
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.786
+	Color:	787
+	Outline:	1
+	OutlineColor:	788
+	OutlineWidth:	0.10000000000000
+	BgColor:	789
+)
+
+(TClr.787
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.788
+)
+
+(TClr.789
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.790
+	Color:	791
+	Outline:	1
+	OutlineColor:	792
+	OutlineWidth:	0.10000000000000
+	BgColor:	793
+)
+
+(TClr.791
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.792
+)
+
+(TClr.793
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.794
+	Color:	795
+	Outline:	1
+	OutlineColor:	796
+	OutlineWidth:	0.10000000000000
+	BgColor:	797
+)
+
+(TClr.795
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.796
+)
+
+(TClr.797
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.798
+	Color:	799
+	Outline:	1
+	OutlineColor:	800
+	OutlineWidth:	0.10000000000000
+	BgColor:	801
+)
+
+(TClr.799
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.800
+)
+
+(TClr.801
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.802
+	Color:	803
+	Outline:	1
+	OutlineColor:	804
+	OutlineWidth:	0.10000000000000
+	BgColor:	805
+)
+
+(TClr.803
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.804
+)
+
+(TClr.805
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.806
+	Color:	807
+	Outline:	1
+	OutlineColor:	808
+	OutlineWidth:	0.10000000000000
+	BgColor:	809
+)
+
+(TClr.807
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.808
+)
+
+(TClr.809
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.810
+	Color:	811
+	Outline:	1
+	OutlineColor:	812
+	OutlineWidth:	0.10000000000000
+	BgColor:	813
+)
+
+(TClr.811
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.812
+)
+
+(TClr.813
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.814
+	Color:	815
+	Outline:	1
+	OutlineColor:	816
+	OutlineWidth:	0.10000000000000
+	BgColor:	817
+)
+
+(TClr.815
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.816
+)
+
+(TClr.817
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.818
+	Color:	819
+	Outline:	1
+	OutlineColor:	820
+	OutlineWidth:	0.10000000000000
+	BgColor:	821
+)
+
+(TClr.819
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.820
+)
+
+(TClr.821
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.822
+	Color:	823
+	Outline:	1
+	OutlineColor:	824
+	OutlineWidth:	0.10000000000000
+	BgColor:	825
+)
+
+(TClr.823
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.824
+)
+
+(TClr.825
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.826
+	Color:	827
+	Outline:	1
+	OutlineColor:	828
+	OutlineWidth:	0.10000000000000
+	BgColor:	829
+)
+
+(TClr.827
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.828
+)
+
+(TClr.829
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.830
+	Color:	831
+	Outline:	1
+	OutlineColor:	832
+	OutlineWidth:	0.10000000000000
+	BgColor:	833
+)
+
+(TClr.831
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.832
+)
+
+(TClr.833
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.834
+	Color:	835
+	Outline:	1
+	OutlineColor:	836
+	OutlineWidth:	0.10000000000000
+	BgColor:	837
+)
+
+(TClr.835
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.836
+)
+
+(TClr.837
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.838
+	Color:	839
+	Outline:	1
+	OutlineColor:	840
+	OutlineWidth:	0.10000000000000
+	BgColor:	841
+)
+
+(TClr.839
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.840
+)
+
+(TClr.841
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.842
+	Color:	843
+	Outline:	1
+	OutlineColor:	844
+	OutlineWidth:	0.10000000000000
+	BgColor:	845
+)
+
+(TClr.843
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.844
+)
+
+(TClr.845
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.846
+	Color:	847
+	Outline:	1
+	OutlineColor:	848
+	OutlineWidth:	0.10000000000000
+	BgColor:	849
+)
+
+(TClr.847
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.848
+)
+
+(TClr.849
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.850
+	Color:	851
+	Outline:	1
+	OutlineColor:	852
+	OutlineWidth:	0.10000000000000
+	BgColor:	853
+)
+
+(TClr.851
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.852
+)
+
+(TClr.853
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.854
+	Color:	855
+	Outline:	1
+	OutlineColor:	856
+	OutlineWidth:	0.10000000000000
+	BgColor:	857
+)
+
+(TClr.855
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.856
+)
+
+(TClr.857
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.858
+	Color:	859
+	Outline:	1
+	OutlineColor:	860
+	OutlineWidth:	0.10000000000000
+	BgColor:	861
+)
+
+(TClr.859
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.860
+)
+
+(TClr.861
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.862
+	Color:	863
+	Outline:	1
+	OutlineColor:	864
+	OutlineWidth:	0.10000000000000
+	BgColor:	865
+)
+
+(TClr.863
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.864
+)
+
+(TClr.865
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.866
+	Color:	867
+	Outline:	1
+	OutlineColor:	868
+	OutlineWidth:	0.10000000000000
+	BgColor:	869
+)
+
+(TClr.867
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.868
+)
+
+(TClr.869
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.870
+	Color:	871
+	Outline:	1
+	OutlineColor:	872
+	OutlineWidth:	0.10000000000000
+	BgColor:	873
+)
+
+(TClr.871
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.872
+)
+
+(TClr.873
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.874
+	Color:	875
+	Outline:	1
+	OutlineColor:	876
+	OutlineWidth:	0.10000000000000
+	BgColor:	877
+)
+
+(TClr.875
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.876
+)
+
+(TClr.877
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.878
+	Color:	879
+	Outline:	1
+	OutlineColor:	880
+	OutlineWidth:	0.10000000000000
+	BgColor:	881
+)
+
+(TClr.879
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.880
+)
+
+(TClr.881
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.882
+	Color:	883
+	Outline:	1
+	OutlineColor:	884
+	OutlineWidth:	0.10000000000000
+	BgColor:	885
+)
+
+(TClr.883
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.884
+)
+
+(TClr.885
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.886
+	Color:	887
+	Outline:	1
+	OutlineColor:	888
+	OutlineWidth:	0.10000000000000
+	BgColor:	889
+)
+
+(TClr.887
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.888
+)
+
+(TClr.889
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.890
+	Color:	891
+	Outline:	1
+	OutlineColor:	892
+	OutlineWidth:	0.10000000000000
+	BgColor:	893
+)
+
+(TClr.891
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.892
+)
+
+(TClr.893
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.894
+	Color:	895
+	Outline:	1
+	OutlineColor:	896
+	OutlineWidth:	0.10000000000000
+	BgColor:	897
+)
+
+(TClr.895
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.896
+)
+
+(TClr.897
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.898
+	Color:	899
+	Outline:	1
+	OutlineColor:	900
+	OutlineWidth:	0.10000000000000
+	BgColor:	901
+)
+
+(TClr.899
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.900
+)
+
+(TClr.901
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.902
+	Color:	903
+	Outline:	1
+	OutlineColor:	904
+	OutlineWidth:	0.10000000000000
+	BgColor:	905
+)
+
+(TClr.903
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.904
+)
+
+(TClr.905
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.906
+	Color:	907
+	Outline:	1
+	OutlineColor:	908
+	OutlineWidth:	0.10000000000000
+	BgColor:	909
+)
+
+(TClr.907
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.908
+)
+
+(TClr.909
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.910
+	Color:	911
+	Outline:	1
+	OutlineColor:	912
+	OutlineWidth:	0.10000000000000
+	BgColor:	913
+)
+
+(TClr.911
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.912
+)
+
+(TClr.913
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.914
+	Color:	915
+	Outline:	1
+	OutlineColor:	916
+	OutlineWidth:	0.10000000000000
+	BgColor:	917
+)
+
+(TClr.915
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.916
+)
+
+(TClr.917
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.918
+	Color:	919
+	Outline:	1
+	OutlineColor:	920
+	OutlineWidth:	0.10000000000000
+	BgColor:	921
+)
+
+(TClr.919
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.920
+)
+
+(TClr.921
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.922
+	Color:	923
+	Outline:	1
+	OutlineColor:	924
+	OutlineWidth:	0.10000000000000
+	BgColor:	925
+)
+
+(TClr.923
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.924
+)
+
+(TClr.925
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.926
+	Color:	927
+	Outline:	1
+	OutlineColor:	928
+	OutlineWidth:	0.10000000000000
+	BgColor:	929
+)
+
+(TClr.927
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.928
+)
+
+(TClr.929
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.930
+	Color:	931
+	Outline:	1
+	OutlineColor:	932
+	OutlineWidth:	0.10000000000000
+	BgColor:	933
+)
+
+(TClr.931
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.932
+)
+
+(TClr.933
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.934
+	Color:	935
+	Outline:	1
+	OutlineColor:	936
+	OutlineWidth:	0.10000000000000
+	BgColor:	937
+)
+
+(TClr.935
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.936
+)
+
+(TClr.937
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.938
+	Color:	939
+	Outline:	1
+	OutlineColor:	940
+	OutlineWidth:	0.10000000000000
+	BgColor:	941
+)
+
+(TClr.939
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.940
+)
+
+(TClr.941
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.942
+	Color:	943
+	Outline:	1
+	OutlineColor:	944
+	OutlineWidth:	0.10000000000000
+	BgColor:	945
+)
+
+(TClr.943
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.944
+)
+
+(TClr.945
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.946
+	Color:	947
+	Outline:	1
+	OutlineColor:	948
+	OutlineWidth:	0.10000000000000
+	BgColor:	949
+)
+
+(TClr.947
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.948
+)
+
+(TClr.949
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.950
+	Color:	951
+	Outline:	1
+	OutlineColor:	952
+	OutlineWidth:	0.10000000000000
+	BgColor:	953
+)
+
+(TClr.951
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.952
+)
+
+(TClr.953
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.954
+	Color:	955
+	Outline:	1
+	OutlineColor:	956
+	OutlineWidth:	0.10000000000000
+	BgColor:	957
+)
+
+(TClr.955
+	Red:	0xf7ff
+	Green:	0xb575
+	Blue:	0x67a7
+)
+
+(TClr.956
+)
+
+(TClr.957
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.958
+	Color:	959
+	Outline:	1
+	OutlineColor:	960
+	OutlineWidth:	0.10000000000000
+	BgColor:	961
+)
+
+(TClr.959
+	Red:	0xceff
+	Green:	0xc355
+	Blue:	0x9596
+)
+
+(TClr.960
+)
+
+(TClr.961
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.962
+	Color:	963
+	Outline:	1
+	OutlineColor:	964
+	OutlineWidth:	0.10000000000000
+	BgColor:	965
+)
+
+(TClr.963
+	Red:	0xcdcd
+	Green:	0x9b9b
+	Blue:	0x1d1d
+)
+
+(TClr.964
+)
+
+(TClr.965
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.966
+	Color:	967
+	Outline:	1
+	OutlineColor:	968
+	OutlineWidth:	0.10000000000000
+	BgColor:	969
+)
+
+(TClr.967
+	Red:	0xf0f0
+	Green:	0xe6e6
+	Blue:	0x8c8c
+)
+
+(TClr.968
+)
+
+(TClr.969
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.970
+	Color:	971
+	Outline:	1
+	OutlineColor:	972
+	OutlineWidth:	0.10000000000000
+	BgColor:	973
+)
+
+(TClr.971
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.972
+)
+
+(TClr.973
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.974
+	Color:	975
+	Outline:	1
+	OutlineColor:	976
+	OutlineWidth:	0.10000000000000
+	BgColor:	977
+)
+
+(TClr.975
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.976
+)
+
+(TClr.977
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.978
+	Color:	979
+	Outline:	1
+	OutlineColor:	980
+	OutlineWidth:	0.10000000000000
+	BgColor:	981
+)
+
+(TClr.979
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.980
+)
+
+(TClr.981
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.982
+	Color:	983
+	Outline:	1
+	OutlineColor:	984
+	OutlineWidth:	0.10000000000000
+	BgColor:	985
+)
+
+(TClr.983
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.984
+)
+
+(TClr.985
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.986
+	Color:	987
+	Outline:	1
+	OutlineColor:	988
+	OutlineWidth:	0.10000000000000
+	BgColor:	989
+)
+
+(TClr.987
+	Red:	0x6969
+	Green:	0x8b8b
+	Blue:	0x6969
+)
+
+(TClr.988
+)
+
+(TClr.989
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.990
+	Color:	991
+	Outline:	1
+	OutlineColor:	992
+	OutlineWidth:	0.10000000000000
+	BgColor:	993
+)
+
+(TClr.991
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.992
+)
+
+(TClr.993
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.994
+	Color:	995
+	Outline:	1
+	OutlineColor:	996
+	OutlineWidth:	0.10000000000000
+	BgColor:	997
+)
+
+(TClr.995
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.996
+)
+
+(TClr.997
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.998
+	Color:	999
+	Outline:	1
+	OutlineColor:	1000
+	OutlineWidth:	0.10000000000000
+	BgColor:	1001
+)
+
+(TClr.999
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.1000
+)
+
+(TClr.1001
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1002
+	Color:	1003
+	Outline:	1
+	OutlineColor:	1004
+	OutlineWidth:	0.10000000000000
+	BgColor:	1005
+)
+
+(TClr.1003
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.1004
+)
+
+(TClr.1005
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1006
+	Color:	1007
+	Outline:	1
+	OutlineColor:	1008
+	OutlineWidth:	0.10000000000000
+	BgColor:	1009
+)
+
+(TClr.1007
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.1008
+)
+
+(TClr.1009
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1010
+	Color:	1011
+	Outline:	1
+	OutlineColor:	1012
+	OutlineWidth:	0.10000000000000
+	BgColor:	1013
+)
+
+(TClr.1011
+	Red:	0xfeff
+	Green:	0xea26
+	Blue:	0xc638
+)
+
+(TClr.1012
+)
+
+(TClr.1013
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1014
+	Color:	1015
+	Outline:	1
+	OutlineColor:	1016
+	OutlineWidth:	0.10000000000000
+	BgColor:	1017
+)
+
+(TClr.1015
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.1016
+)
+
+(TClr.1017
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1018
+	Color:	1019
+	Outline:	1
+	OutlineColor:	1020
+	OutlineWidth:	0.10000000000000
+	BgColor:	1021
+)
+
+(TClr.1019
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.1020
+)
+
+(TClr.1021
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1022
+	Color:	1023
+	Outline:	1
+	OutlineColor:	1024
+	OutlineWidth:	0.10000000000000
+	BgColor:	1025
+)
+
+(TClr.1023
+	Red:	0xdb00
+	Green:	0x6700
+)
+
+(TClr.1024
+)
+
+(TClr.1025
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1026
+	Color:	1027
+	Outline:	1
+	OutlineColor:	1028
+	OutlineWidth:	0.10000000000000
+	BgColor:	1029
+)
+
+(TClr.1027
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.1028
+)
+
+(TClr.1029
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1030
+	Color:	1031
+	Outline:	1
+	OutlineColor:	1032
+	OutlineWidth:	0.10000000000000
+	BgColor:	1033
+)
+
+(TClr.1031
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.1032
+)
+
+(TClr.1033
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1034
+	Color:	1035
+	Outline:	1
+	OutlineColor:	1036
+	OutlineWidth:	0.10000000000000
+	BgColor:	1037
+)
+
+(TClr.1035
+	Red:	0x7300
+	Green:	0x8300
+	Blue:	0x2500
+)
+
+(TClr.1036
+)
+
+(TClr.1037
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1038
+	Color:	1039
+	Outline:	1
+	OutlineColor:	1040
+	OutlineWidth:	0.10000000000000
+	BgColor:	1041
+)
+
+(TClr.1039
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.1040
+)
+
+(TClr.1041
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1042
+	Color:	1043
+	Outline:	1
+	OutlineColor:	1044
+	OutlineWidth:	0.10000000000000
+	BgColor:	1045
+)
+
+(TClr.1043
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.1044
+)
+
+(TClr.1045
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1046
+	Color:	1047
+	Outline:	1
+	OutlineColor:	1048
+	OutlineWidth:	0.10000000000000
+	BgColor:	1049
+)
+
+(TClr.1047
+	Name:	"Transparent"
+)
+
+(TClr.1048
+	Name:	"Transparent"
+)
+
+(TClr.1049
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1050
+	IsText:	1
+	Label:	"Afghanistan"
+	MinStr:	"Afghanistan"
+	MaxStr:	"Afghanistan"
+	Precision:	-3
+)
+
+(LClass.1051
+	IsText:	1
+	Label:	"Albania"
+	MinStr:	"Albania"
+	MaxStr:	"Albania"
+	Precision:	-3
+)
+
+(LClass.1052
+	IsText:	1
+	Label:	"Algeria"
+	MinStr:	"Algeria"
+	MaxStr:	"Algeria"
+	Precision:	-3
+)
+
+(LClass.1053
+	IsText:	1
+	Label:	"American Samoa"
+	MinStr:	"American Samoa"
+	MaxStr:	"American Samoa"
+	Precision:	-3
+)
+
+(LClass.1054
+	IsText:	1
+	Label:	"Andorra"
+	MinStr:	"Andorra"
+	MaxStr:	"Andorra"
+	Precision:	-3
+)
+
+(LClass.1055
+	IsText:	1
+	Label:	"Angola"
+	MinStr:	"Angola"
+	MaxStr:	"Angola"
+	Precision:	-3
+)
+
+(LClass.1056
+	IsText:	1
+	Label:	"Anguilla"
+	MinStr:	"Anguilla"
+	MaxStr:	"Anguilla"
+	Precision:	-3
+)
+
+(LClass.1057
+	IsText:	1
+	Label:	"Antarctica"
+	MinStr:	"Antarctica"
+	MaxStr:	"Antarctica"
+	Precision:	-3
+)
+
+(LClass.1058
+	IsText:	1
+	Label:	"Antigua and Barbuda"
+	MinStr:	"Antigua and Barbuda"
+	MaxStr:	"Antigua and Barbuda"
+	Precision:	-3
+)
+
+(LClass.1059
+	IsText:	1
+	Label:	"Argentina"
+	MinStr:	"Argentina"
+	MaxStr:	"Argentina"
+	Precision:	-3
+)
+
+(LClass.1060
+	IsText:	1
+	Label:	"Armenia"
+	MinStr:	"Armenia"
+	MaxStr:	"Armenia"
+	Precision:	-3
+)
+
+(LClass.1061
+	IsText:	1
+	Label:	"Aruba"
+	MinStr:	"Aruba"
+	MaxStr:	"Aruba"
+	Precision:	-3
+)
+
+(LClass.1062
+	IsText:	1
+	Label:	"Australia"
+	MinStr:	"Australia"
+	MaxStr:	"Australia"
+	Precision:	-3
+)
+
+(LClass.1063
+	IsText:	1
+	Label:	"Austria"
+	MinStr:	"Austria"
+	MaxStr:	"Austria"
+	Precision:	-3
+)
+
+(LClass.1064
+	IsText:	1
+	Label:	"Azerbaijan"
+	MinStr:	"Azerbaijan"
+	MaxStr:	"Azerbaijan"
+	Precision:	-3
+)
+
+(LClass.1065
+	IsText:	1
+	Label:	"Bahamas, The"
+	MinStr:	"Bahamas, The"
+	MaxStr:	"Bahamas, The"
+	Precision:	-3
+)
+
+(LClass.1066
+	IsText:	1
+	Label:	"Bahrain"
+	MinStr:	"Bahrain"
+	MaxStr:	"Bahrain"
+	Precision:	-3
+)
+
+(LClass.1067
+	IsText:	1
+	Label:	"Baker Island"
+	MinStr:	"Baker Island"
+	MaxStr:	"Baker Island"
+	Precision:	-3
+)
+
+(LClass.1068
+	IsText:	1
+	Label:	"Bangladesh"
+	MinStr:	"Bangladesh"
+	MaxStr:	"Bangladesh"
+	Precision:	-3
+)
+
+(LClass.1069
+	IsText:	1
+	Label:	"Barbados"
+	MinStr:	"Barbados"
+	MaxStr:	"Barbados"
+	Precision:	-3
+)
+
+(LClass.1070
+	IsText:	1
+	Label:	"Belgium"
+	MinStr:	"Belgium"
+	MaxStr:	"Belgium"
+	Precision:	-3
+)
+
+(LClass.1071
+	IsText:	1
+	Label:	"Belize"
+	MinStr:	"Belize"
+	MaxStr:	"Belize"
+	Precision:	-3
+)
+
+(LClass.1072
+	IsText:	1
+	Label:	"Benin"
+	MinStr:	"Benin"
+	MaxStr:	"Benin"
+	Precision:	-3
+)
+
+(LClass.1073
+	IsText:	1
+	Label:	"Bermuda"
+	MinStr:	"Bermuda"
+	MaxStr:	"Bermuda"
+	Precision:	-3
+)
+
+(LClass.1074
+	IsText:	1
+	Label:	"Bhutan"
+	MinStr:	"Bhutan"
+	MaxStr:	"Bhutan"
+	Precision:	-3
+)
+
+(LClass.1075
+	IsText:	1
+	Label:	"Bolivia"
+	MinStr:	"Bolivia"
+	MaxStr:	"Bolivia"
+	Precision:	-3
+)
+
+(LClass.1076
+	IsText:	1
+	Label:	"Bosnia and Herzegovina"
+	MinStr:	"Bosnia and Herzegovina"
+	MaxStr:	"Bosnia and Herzegovina"
+	Precision:	-3
+)
+
+(LClass.1077
+	IsText:	1
+	Label:	"Botswana"
+	MinStr:	"Botswana"
+	MaxStr:	"Botswana"
+	Precision:	-3
+)
+
+(LClass.1078
+	IsText:	1
+	Label:	"Bouvet Island"
+	MinStr:	"Bouvet Island"
+	MaxStr:	"Bouvet Island"
+	Precision:	-3
+)
+
+(LClass.1079
+	IsText:	1
+	Label:	"Brazil"
+	MinStr:	"Brazil"
+	MaxStr:	"Brazil"
+	Precision:	-3
+)
+
+(LClass.1080
+	IsText:	1
+	Label:	"British Indian Ocean Territory"
+	MinStr:	"British Indian Ocean Territory"
+	MaxStr:	"British Indian Ocean Territory"
+	Precision:	-3
+)
+
+(LClass.1081
+	IsText:	1
+	Label:	"British Virgin Islands"
+	MinStr:	"British Virgin Islands"
+	MaxStr:	"British Virgin Islands"
+	Precision:	-3
+)
+
+(LClass.1082
+	IsText:	1
+	Label:	"Brunei"
+	MinStr:	"Brunei"
+	MaxStr:	"Brunei"
+	Precision:	-3
+)
+
+(LClass.1083
+	IsText:	1
+	Label:	"Bulgaria"
+	MinStr:	"Bulgaria"
+	MaxStr:	"Bulgaria"
+	Precision:	-3
+)
+
+(LClass.1084
+	IsText:	1
+	Label:	"Burkina Faso"
+	MinStr:	"Burkina Faso"
+	MaxStr:	"Burkina Faso"
+	Precision:	-3
+)
+
+(LClass.1085
+	IsText:	1
+	Label:	"Burundi"
+	MinStr:	"Burundi"
+	MaxStr:	"Burundi"
+	Precision:	-3
+)
+
+(LClass.1086
+	IsText:	1
+	Label:	"Byelarus"
+	MinStr:	"Byelarus"
+	MaxStr:	"Byelarus"
+	Precision:	-3
+)
+
+(LClass.1087
+	IsText:	1
+	Label:	"Cambodia"
+	MinStr:	"Cambodia"
+	MaxStr:	"Cambodia"
+	Precision:	-3
+)
+
+(LClass.1088
+	IsText:	1
+	Label:	"Cameroon"
+	MinStr:	"Cameroon"
+	MaxStr:	"Cameroon"
+	Precision:	-3
+)
+
+(LClass.1089
+	IsText:	1
+	Label:	"Canada"
+	MinStr:	"Canada"
+	MaxStr:	"Canada"
+	Precision:	-3
+)
+
+(LClass.1090
+	IsText:	1
+	Label:	"Cape Verde"
+	MinStr:	"Cape Verde"
+	MaxStr:	"Cape Verde"
+	Precision:	-3
+)
+
+(LClass.1091
+	IsText:	1
+	Label:	"Cayman Islands"
+	MinStr:	"Cayman Islands"
+	MaxStr:	"Cayman Islands"
+	Precision:	-3
+)
+
+(LClass.1092
+	IsText:	1
+	Label:	"Central African Republic"
+	MinStr:	"Central African Republic"
+	MaxStr:	"Central African Republic"
+	Precision:	-3
+)
+
+(LClass.1093
+	IsText:	1
+	Label:	"Chad"
+	MinStr:	"Chad"
+	MaxStr:	"Chad"
+	Precision:	-3
+)
+
+(LClass.1094
+	IsText:	1
+	Label:	"Chile"
+	MinStr:	"Chile"
+	MaxStr:	"Chile"
+	Precision:	-3
+)
+
+(LClass.1095
+	IsText:	1
+	Label:	"China"
+	MinStr:	"China"
+	MaxStr:	"China"
+	Precision:	-3
+)
+
+(LClass.1096
+	IsText:	1
+	Label:	"Christmas Island"
+	MinStr:	"Christmas Island"
+	MaxStr:	"Christmas Island"
+	Precision:	-3
+)
+
+(LClass.1097
+	IsText:	1
+	Label:	"Cocos (Keeling) Islands"
+	MinStr:	"Cocos (Keeling) Islands"
+	MaxStr:	"Cocos (Keeling) Islands"
+	Precision:	-3
+)
+
+(LClass.1098
+	IsText:	1
+	Label:	"Colombia"
+	MinStr:	"Colombia"
+	MaxStr:	"Colombia"
+	Precision:	-3
+)
+
+(LClass.1099
+	IsText:	1
+	Label:	"Comoros"
+	MinStr:	"Comoros"
+	MaxStr:	"Comoros"
+	Precision:	-3
+)
+
+(LClass.1100
+	IsText:	1
+	Label:	"Congo"
+	MinStr:	"Congo"
+	MaxStr:	"Congo"
+	Precision:	-3
+)
+
+(LClass.1101
+	IsText:	1
+	Label:	"Cook Islands"
+	MinStr:	"Cook Islands"
+	MaxStr:	"Cook Islands"
+	Precision:	-3
+)
+
+(LClass.1102
+	IsText:	1
+	Label:	"Costa Rica"
+	MinStr:	"Costa Rica"
+	MaxStr:	"Costa Rica"
+	Precision:	-3
+)
+
+(LClass.1103
+	IsText:	1
+	Label:	"Croatia"
+	MinStr:	"Croatia"
+	MaxStr:	"Croatia"
+	Precision:	-3
+)
+
+(LClass.1104
+	IsText:	1
+	Label:	"Cuba"
+	MinStr:	"Cuba"
+	MaxStr:	"Cuba"
+	Precision:	-3
+)
+
+(LClass.1105
+	IsText:	1
+	Label:	"Cyprus"
+	MinStr:	"Cyprus"
+	MaxStr:	"Cyprus"
+	Precision:	-3
+)
+
+(LClass.1106
+	IsText:	1
+	Label:	"Czech Republic"
+	MinStr:	"Czech Republic"
+	MaxStr:	"Czech Republic"
+	Precision:	-3
+)
+
+(LClass.1107
+	IsText:	1
+	Label:	"Denmark"
+	MinStr:	"Denmark"
+	MaxStr:	"Denmark"
+	Precision:	-3
+)
+
+(LClass.1108
+	IsText:	1
+	Label:	"Djibouti"
+	MinStr:	"Djibouti"
+	MaxStr:	"Djibouti"
+	Precision:	-3
+)
+
+(LClass.1109
+	IsText:	1
+	Label:	"Dominica"
+	MinStr:	"Dominica"
+	MaxStr:	"Dominica"
+	Precision:	-3
+)
+
+(LClass.1110
+	IsText:	1
+	Label:	"Dominican Republic"
+	MinStr:	"Dominican Republic"
+	MaxStr:	"Dominican Republic"
+	Precision:	-3
+)
+
+(LClass.1111
+	IsText:	1
+	Label:	"Ecuador"
+	MinStr:	"Ecuador"
+	MaxStr:	"Ecuador"
+	Precision:	-3
+)
+
+(LClass.1112
+	IsText:	1
+	Label:	"Egypt"
+	MinStr:	"Egypt"
+	MaxStr:	"Egypt"
+	Precision:	-3
+)
+
+(LClass.1113
+	IsText:	1
+	Label:	"El Salvador"
+	MinStr:	"El Salvador"
+	MaxStr:	"El Salvador"
+	Precision:	-3
+)
+
+(LClass.1114
+	IsText:	1
+	Label:	"Equatorial Guinea"
+	MinStr:	"Equatorial Guinea"
+	MaxStr:	"Equatorial Guinea"
+	Precision:	-3
+)
+
+(LClass.1115
+	IsText:	1
+	Label:	"Eritrea"
+	MinStr:	"Eritrea"
+	MaxStr:	"Eritrea"
+	Precision:	-3
+)
+
+(LClass.1116
+	IsText:	1
+	Label:	"Estonia"
+	MinStr:	"Estonia"
+	MaxStr:	"Estonia"
+	Precision:	-3
+)
+
+(LClass.1117
+	IsText:	1
+	Label:	"Ethiopia"
+	MinStr:	"Ethiopia"
+	MaxStr:	"Ethiopia"
+	Precision:	-3
+)
+
+(LClass.1118
+	IsText:	1
+	Label:	"Falkland Islands (Islas Malvinas)"
+	MinStr:	"Falkland Islands (Islas Malvinas)"
+	MaxStr:	"Falkland Islands (Islas Malvinas)"
+	Precision:	-3
+)
+
+(LClass.1119
+	IsText:	1
+	Label:	"Faroe Islands"
+	MinStr:	"Faroe Islands"
+	MaxStr:	"Faroe Islands"
+	Precision:	-3
+)
+
+(LClass.1120
+	IsText:	1
+	Label:	"Federated States of Micronesia"
+	MinStr:	"Federated States of Micronesia"
+	MaxStr:	"Federated States of Micronesia"
+	Precision:	-3
+)
+
+(LClass.1121
+	IsText:	1
+	Label:	"Fiji"
+	MinStr:	"Fiji"
+	MaxStr:	"Fiji"
+	Precision:	-3
+)
+
+(LClass.1122
+	IsText:	1
+	Label:	"Finland"
+	MinStr:	"Finland"
+	MaxStr:	"Finland"
+	Precision:	-3
+)
+
+(LClass.1123
+	IsText:	1
+	Label:	"France"
+	MinStr:	"France"
+	MaxStr:	"France"
+	Precision:	-3
+)
+
+(LClass.1124
+	IsText:	1
+	Label:	"French Guiana"
+	MinStr:	"French Guiana"
+	MaxStr:	"French Guiana"
+	Precision:	-3
+)
+
+(LClass.1125
+	IsText:	1
+	Label:	"French Polynesia"
+	MinStr:	"French Polynesia"
+	MaxStr:	"French Polynesia"
+	Precision:	-3
+)
+
+(LClass.1126
+	IsText:	1
+	Label:	"French Southern & Antarctic Lands"
+	MinStr:	"French Southern & Antarctic Lands"
+	MaxStr:	"French Southern & Antarctic Lands"
+	Precision:	-3
+)
+
+(LClass.1127
+	IsText:	1
+	Label:	"Gabon"
+	MinStr:	"Gabon"
+	MaxStr:	"Gabon"
+	Precision:	-3
+)
+
+(LClass.1128
+	IsText:	1
+	Label:	"Gambia, The"
+	MinStr:	"Gambia, The"
+	MaxStr:	"Gambia, The"
+	Precision:	-3
+)
+
+(LClass.1129
+	IsText:	1
+	Label:	"Gaza Strip"
+	MinStr:	"Gaza Strip"
+	MaxStr:	"Gaza Strip"
+	Precision:	-3
+)
+
+(LClass.1130
+	IsText:	1
+	Label:	"Georgia"
+	MinStr:	"Georgia"
+	MaxStr:	"Georgia"
+	Precision:	-3
+)
+
+(LClass.1131
+	IsText:	1
+	Label:	"Germany"
+	MinStr:	"Germany"
+	MaxStr:	"Germany"
+	Precision:	-3
+)
+
+(LClass.1132
+	IsText:	1
+	Label:	"Ghana"
+	MinStr:	"Ghana"
+	MaxStr:	"Ghana"
+	Precision:	-3
+)
+
+(LClass.1133
+	IsText:	1
+	Label:	"Gibraltar"
+	MinStr:	"Gibraltar"
+	MaxStr:	"Gibraltar"
+	Precision:	-3
+)
+
+(LClass.1134
+	IsText:	1
+	Label:	"Glorioso Islands"
+	MinStr:	"Glorioso Islands"
+	MaxStr:	"Glorioso Islands"
+	Precision:	-3
+)
+
+(LClass.1135
+	IsText:	1
+	Label:	"Greece"
+	MinStr:	"Greece"
+	MaxStr:	"Greece"
+	Precision:	-3
+)
+
+(LClass.1136
+	IsText:	1
+	Label:	"Greenland"
+	MinStr:	"Greenland"
+	MaxStr:	"Greenland"
+	Precision:	-3
+)
+
+(LClass.1137
+	IsText:	1
+	Label:	"Grenada"
+	MinStr:	"Grenada"
+	MaxStr:	"Grenada"
+	Precision:	-3
+)
+
+(LClass.1138
+	IsText:	1
+	Label:	"Guadeloupe"
+	MinStr:	"Guadeloupe"
+	MaxStr:	"Guadeloupe"
+	Precision:	-3
+)
+
+(LClass.1139
+	IsText:	1
+	Label:	"Guam"
+	MinStr:	"Guam"
+	MaxStr:	"Guam"
+	Precision:	-3
+)
+
+(LClass.1140
+	IsText:	1
+	Label:	"Guatemala"
+	MinStr:	"Guatemala"
+	MaxStr:	"Guatemala"
+	Precision:	-3
+)
+
+(LClass.1141
+	IsText:	1
+	Label:	"Guernsey"
+	MinStr:	"Guernsey"
+	MaxStr:	"Guernsey"
+	Precision:	-3
+)
+
+(LClass.1142
+	IsText:	1
+	Label:	"Guinea"
+	MinStr:	"Guinea"
+	MaxStr:	"Guinea"
+	Precision:	-3
+)
+
+(LClass.1143
+	IsText:	1
+	Label:	"Guinea-Bissau"
+	MinStr:	"Guinea-Bissau"
+	MaxStr:	"Guinea-Bissau"
+	Precision:	-3
+)
+
+(LClass.1144
+	IsText:	1
+	Label:	"Guyana"
+	MinStr:	"Guyana"
+	MaxStr:	"Guyana"
+	Precision:	-3
+)
+
+(LClass.1145
+	IsText:	1
+	Label:	"Haiti"
+	MinStr:	"Haiti"
+	MaxStr:	"Haiti"
+	Precision:	-3
+)
+
+(LClass.1146
+	IsText:	1
+	Label:	"Heard Island & McDonald Islands"
+	MinStr:	"Heard Island & McDonald Islands"
+	MaxStr:	"Heard Island & McDonald Islands"
+	Precision:	-3
+)
+
+(LClass.1147
+	IsText:	1
+	Label:	"Honduras"
+	MinStr:	"Honduras"
+	MaxStr:	"Honduras"
+	Precision:	-3
+)
+
+(LClass.1148
+	IsText:	1
+	Label:	"Howland Island"
+	MinStr:	"Howland Island"
+	MaxStr:	"Howland Island"
+	Precision:	-3
+)
+
+(LClass.1149
+	IsText:	1
+	Label:	"Hungary"
+	MinStr:	"Hungary"
+	MaxStr:	"Hungary"
+	Precision:	-3
+)
+
+(LClass.1150
+	IsText:	1
+	Label:	"Iceland"
+	MinStr:	"Iceland"
+	MaxStr:	"Iceland"
+	Precision:	-3
+)
+
+(LClass.1151
+	IsText:	1
+	Label:	"India"
+	MinStr:	"India"
+	MaxStr:	"India"
+	Precision:	-3
+)
+
+(LClass.1152
+	IsText:	1
+	Label:	"Indonesia"
+	MinStr:	"Indonesia"
+	MaxStr:	"Indonesia"
+	Precision:	-3
+)
+
+(LClass.1153
+	IsText:	1
+	Label:	"Iran"
+	MinStr:	"Iran"
+	MaxStr:	"Iran"
+	Precision:	-3
+)
+
+(LClass.1154
+	IsText:	1
+	Label:	"Iraq"
+	MinStr:	"Iraq"
+	MaxStr:	"Iraq"
+	Precision:	-3
+)
+
+(LClass.1155
+	IsText:	1
+	Label:	"Ireland"
+	MinStr:	"Ireland"
+	MaxStr:	"Ireland"
+	Precision:	-3
+)
+
+(LClass.1156
+	IsText:	1
+	Label:	"Israel"
+	MinStr:	"Israel"
+	MaxStr:	"Israel"
+	Precision:	-3
+)
+
+(LClass.1157
+	IsText:	1
+	Label:	"Italy"
+	MinStr:	"Italy"
+	MaxStr:	"Italy"
+	Precision:	-3
+)
+
+(LClass.1158
+	IsText:	1
+	Label:	"Ivory Coast"
+	MinStr:	"Ivory Coast"
+	MaxStr:	"Ivory Coast"
+	Precision:	-3
+)
+
+(LClass.1159
+	IsText:	1
+	Label:	"Jamaica"
+	MinStr:	"Jamaica"
+	MaxStr:	"Jamaica"
+	Precision:	-3
+)
+
+(LClass.1160
+	IsText:	1
+	Label:	"Jan Mayen"
+	MinStr:	"Jan Mayen"
+	MaxStr:	"Jan Mayen"
+	Precision:	-3
+)
+
+(LClass.1161
+	IsText:	1
+	Label:	"Japan"
+	MinStr:	"Japan"
+	MaxStr:	"Japan"
+	Precision:	-3
+)
+
+(LClass.1162
+	IsText:	1
+	Label:	"Jarvis Island"
+	MinStr:	"Jarvis Island"
+	MaxStr:	"Jarvis Island"
+	Precision:	-3
+)
+
+(LClass.1163
+	IsText:	1
+	Label:	"Jersey"
+	MinStr:	"Jersey"
+	MaxStr:	"Jersey"
+	Precision:	-3
+)
+
+(LClass.1164
+	IsText:	1
+	Label:	"Johnston Atoll"
+	MinStr:	"Johnston Atoll"
+	MaxStr:	"Johnston Atoll"
+	Precision:	-3
+)
+
+(LClass.1165
+	IsText:	1
+	Label:	"Jordan"
+	MinStr:	"Jordan"
+	MaxStr:	"Jordan"
+	Precision:	-3
+)
+
+(LClass.1166
+	IsText:	1
+	Label:	"Juan De Nova Island"
+	MinStr:	"Juan De Nova Island"
+	MaxStr:	"Juan De Nova Island"
+	Precision:	-3
+)
+
+(LClass.1167
+	IsText:	1
+	Label:	"Kazakhstan"
+	MinStr:	"Kazakhstan"
+	MaxStr:	"Kazakhstan"
+	Precision:	-3
+)
+
+(LClass.1168
+	IsText:	1
+	Label:	"Kenya"
+	MinStr:	"Kenya"
+	MaxStr:	"Kenya"
+	Precision:	-3
+)
+
+(LClass.1169
+	IsText:	1
+	Label:	"Kiribati"
+	MinStr:	"Kiribati"
+	MaxStr:	"Kiribati"
+	Precision:	-3
+)
+
+(LClass.1170
+	IsText:	1
+	Label:	"Kuwait"
+	MinStr:	"Kuwait"
+	MaxStr:	"Kuwait"
+	Precision:	-3
+)
+
+(LClass.1171
+	IsText:	1
+	Label:	"Kyrgyzstan"
+	MinStr:	"Kyrgyzstan"
+	MaxStr:	"Kyrgyzstan"
+	Precision:	-3
+)
+
+(LClass.1172
+	IsText:	1
+	Label:	"Laos"
+	MinStr:	"Laos"
+	MaxStr:	"Laos"
+	Precision:	-3
+)
+
+(LClass.1173
+	IsText:	1
+	Label:	"Latvia"
+	MinStr:	"Latvia"
+	MaxStr:	"Latvia"
+	Precision:	-3
+)
+
+(LClass.1174
+	IsText:	1
+	Label:	"Lebanon"
+	MinStr:	"Lebanon"
+	MaxStr:	"Lebanon"
+	Precision:	-3
+)
+
+(LClass.1175
+	IsText:	1
+	Label:	"Lesotho"
+	MinStr:	"Lesotho"
+	MaxStr:	"Lesotho"
+	Precision:	-3
+)
+
+(LClass.1176
+	IsText:	1
+	Label:	"Liberia"
+	MinStr:	"Liberia"
+	MaxStr:	"Liberia"
+	Precision:	-3
+)
+
+(LClass.1177
+	IsText:	1
+	Label:	"Libya"
+	MinStr:	"Libya"
+	MaxStr:	"Libya"
+	Precision:	-3
+)
+
+(LClass.1178
+	IsText:	1
+	Label:	"Liechtenstein"
+	MinStr:	"Liechtenstein"
+	MaxStr:	"Liechtenstein"
+	Precision:	-3
+)
+
+(LClass.1179
+	IsText:	1
+	Label:	"Lithuania"
+	MinStr:	"Lithuania"
+	MaxStr:	"Lithuania"
+	Precision:	-3
+)
+
+(LClass.1180
+	IsText:	1
+	Label:	"Luxembourg"
+	MinStr:	"Luxembourg"
+	MaxStr:	"Luxembourg"
+	Precision:	-3
+)
+
+(LClass.1181
+	IsText:	1
+	Label:	"Macau"
+	MinStr:	"Macau"
+	MaxStr:	"Macau"
+	Precision:	-3
+)
+
+(LClass.1182
+	IsText:	1
+	Label:	"Macedonia"
+	MinStr:	"Macedonia"
+	MaxStr:	"Macedonia"
+	Precision:	-3
+)
+
+(LClass.1183
+	IsText:	1
+	Label:	"Madagascar"
+	MinStr:	"Madagascar"
+	MaxStr:	"Madagascar"
+	Precision:	-3
+)
+
+(LClass.1184
+	IsText:	1
+	Label:	"Malawi"
+	MinStr:	"Malawi"
+	MaxStr:	"Malawi"
+	Precision:	-3
+)
+
+(LClass.1185
+	IsText:	1
+	Label:	"Malaysia"
+	MinStr:	"Malaysia"
+	MaxStr:	"Malaysia"
+	Precision:	-3
+)
+
+(LClass.1186
+	IsText:	1
+	Label:	"Maldives"
+	MinStr:	"Maldives"
+	MaxStr:	"Maldives"
+	Precision:	-3
+)
+
+(LClass.1187
+	IsText:	1
+	Label:	"Mali"
+	MinStr:	"Mali"
+	MaxStr:	"Mali"
+	Precision:	-3
+)
+
+(LClass.1188
+	IsText:	1
+	Label:	"Malta"
+	MinStr:	"Malta"
+	MaxStr:	"Malta"
+	Precision:	-3
+)
+
+(LClass.1189
+	IsText:	1
+	Label:	"Man, Isle of"
+	MinStr:	"Man, Isle of"
+	MaxStr:	"Man, Isle of"
+	Precision:	-3
+)
+
+(LClass.1190
+	IsText:	1
+	Label:	"Marshall Islands"
+	MinStr:	"Marshall Islands"
+	MaxStr:	"Marshall Islands"
+	Precision:	-3
+)
+
+(LClass.1191
+	IsText:	1
+	Label:	"Martinique"
+	MinStr:	"Martinique"
+	MaxStr:	"Martinique"
+	Precision:	-3
+)
+
+(LClass.1192
+	IsText:	1
+	Label:	"Mauritania"
+	MinStr:	"Mauritania"
+	MaxStr:	"Mauritania"
+	Precision:	-3
+)
+
+(LClass.1193
+	IsText:	1
+	Label:	"Mauritius"
+	MinStr:	"Mauritius"
+	MaxStr:	"Mauritius"
+	Precision:	-3
+)
+
+(LClass.1194
+	IsText:	1
+	Label:	"Mayotte"
+	MinStr:	"Mayotte"
+	MaxStr:	"Mayotte"
+	Precision:	-3
+)
+
+(LClass.1195
+	IsText:	1
+	Label:	"Mexico"
+	MinStr:	"Mexico"
+	MaxStr:	"Mexico"
+	Precision:	-3
+)
+
+(LClass.1196
+	IsText:	1
+	Label:	"Midway Islands"
+	MinStr:	"Midway Islands"
+	MaxStr:	"Midway Islands"
+	Precision:	-3
+)
+
+(LClass.1197
+	IsText:	1
+	Label:	"Moldova"
+	MinStr:	"Moldova"
+	MaxStr:	"Moldova"
+	Precision:	-3
+)
+
+(LClass.1198
+	IsText:	1
+	Label:	"Monaco"
+	MinStr:	"Monaco"
+	MaxStr:	"Monaco"
+	Precision:	-3
+)
+
+(LClass.1199
+	IsText:	1
+	Label:	"Mongolia"
+	MinStr:	"Mongolia"
+	MaxStr:	"Mongolia"
+	Precision:	-3
+)
+
+(LClass.1200
+	IsText:	1
+	Label:	"Montenegro"
+	MinStr:	"Montenegro"
+	MaxStr:	"Montenegro"
+	Precision:	-3
+)
+
+(LClass.1201
+	IsText:	1
+	Label:	"Montserrat"
+	MinStr:	"Montserrat"
+	MaxStr:	"Montserrat"
+	Precision:	-3
+)
+
+(LClass.1202
+	IsText:	1
+	Label:	"Morocco"
+	MinStr:	"Morocco"
+	MaxStr:	"Morocco"
+	Precision:	-3
+)
+
+(LClass.1203
+	IsText:	1
+	Label:	"Mozambique"
+	MinStr:	"Mozambique"
+	MaxStr:	"Mozambique"
+	Precision:	-3
+)
+
+(LClass.1204
+	IsText:	1
+	Label:	"Myanmar (Burma)"
+	MinStr:	"Myanmar (Burma)"
+	MaxStr:	"Myanmar (Burma)"
+	Precision:	-3
+)
+
+(LClass.1205
+	IsText:	1
+	Label:	"Namibia"
+	MinStr:	"Namibia"
+	MaxStr:	"Namibia"
+	Precision:	-3
+)
+
+(LClass.1206
+	IsText:	1
+	Label:	"Nauru"
+	MinStr:	"Nauru"
+	MaxStr:	"Nauru"
+	Precision:	-3
+)
+
+(LClass.1207
+	IsText:	1
+	Label:	"Nepal"
+	MinStr:	"Nepal"
+	MaxStr:	"Nepal"
+	Precision:	-3
+)
+
+(LClass.1208
+	IsText:	1
+	Label:	"Netherlands"
+	MinStr:	"Netherlands"
+	MaxStr:	"Netherlands"
+	Precision:	-3
+)
+
+(LClass.1209
+	IsText:	1
+	Label:	"Netherlands Antilles"
+	MinStr:	"Netherlands Antilles"
+	MaxStr:	"Netherlands Antilles"
+	Precision:	-3
+)
+
+(LClass.1210
+	IsText:	1
+	Label:	"New Caledonia"
+	MinStr:	"New Caledonia"
+	MaxStr:	"New Caledonia"
+	Precision:	-3
+)
+
+(LClass.1211
+	IsText:	1
+	Label:	"New Zealand"
+	MinStr:	"New Zealand"
+	MaxStr:	"New Zealand"
+	Precision:	-3
+)
+
+(LClass.1212
+	IsText:	1
+	Label:	"Nicaragua"
+	MinStr:	"Nicaragua"
+	MaxStr:	"Nicaragua"
+	Precision:	-3
+)
+
+(LClass.1213
+	IsText:	1
+	Label:	"Niger"
+	MinStr:	"Niger"
+	MaxStr:	"Niger"
+	Precision:	-3
+)
+
+(LClass.1214
+	IsText:	1
+	Label:	"Nigeria"
+	MinStr:	"Nigeria"
+	MaxStr:	"Nigeria"
+	Precision:	-3
+)
+
+(LClass.1215
+	IsText:	1
+	Label:	"Niue"
+	MinStr:	"Niue"
+	MaxStr:	"Niue"
+	Precision:	-3
+)
+
+(LClass.1216
+	IsText:	1
+	Label:	"Norfolk Island"
+	MinStr:	"Norfolk Island"
+	MaxStr:	"Norfolk Island"
+	Precision:	-3
+)
+
+(LClass.1217
+	IsText:	1
+	Label:	"North Korea"
+	MinStr:	"North Korea"
+	MaxStr:	"North Korea"
+	Precision:	-3
+)
+
+(LClass.1218
+	IsText:	1
+	Label:	"Northern Mariana Islands"
+	MinStr:	"Northern Mariana Islands"
+	MaxStr:	"Northern Mariana Islands"
+	Precision:	-3
+)
+
+(LClass.1219
+	IsText:	1
+	Label:	"Norway"
+	MinStr:	"Norway"
+	MaxStr:	"Norway"
+	Precision:	-3
+)
+
+(LClass.1220
+	IsText:	1
+	Label:	"Oman"
+	MinStr:	"Oman"
+	MaxStr:	"Oman"
+	Precision:	-3
+)
+
+(LClass.1221
+	IsText:	1
+	Label:	"Pacific Islands (Palau)"
+	MinStr:	"Pacific Islands (Palau)"
+	MaxStr:	"Pacific Islands (Palau)"
+	Precision:	-3
+)
+
+(LClass.1222
+	IsText:	1
+	Label:	"Pakistan"
+	MinStr:	"Pakistan"
+	MaxStr:	"Pakistan"
+	Precision:	-3
+)
+
+(LClass.1223
+	IsText:	1
+	Label:	"Panama"
+	MinStr:	"Panama"
+	MaxStr:	"Panama"
+	Precision:	-3
+)
+
+(LClass.1224
+	IsText:	1
+	Label:	"Papua New Guinea"
+	MinStr:	"Papua New Guinea"
+	MaxStr:	"Papua New Guinea"
+	Precision:	-3
+)
+
+(LClass.1225
+	IsText:	1
+	Label:	"Paracel Islands"
+	MinStr:	"Paracel Islands"
+	MaxStr:	"Paracel Islands"
+	Precision:	-3
+)
+
+(LClass.1226
+	IsText:	1
+	Label:	"Paraguay"
+	MinStr:	"Paraguay"
+	MaxStr:	"Paraguay"
+	Precision:	-3
+)
+
+(LClass.1227
+	IsText:	1
+	Label:	"Peru"
+	MinStr:	"Peru"
+	MaxStr:	"Peru"
+	Precision:	-3
+)
+
+(LClass.1228
+	IsText:	1
+	Label:	"Philippines"
+	MinStr:	"Philippines"
+	MaxStr:	"Philippines"
+	Precision:	-3
+)
+
+(LClass.1229
+	IsText:	1
+	Label:	"Pitcairn Islands"
+	MinStr:	"Pitcairn Islands"
+	MaxStr:	"Pitcairn Islands"
+	Precision:	-3
+)
+
+(LClass.1230
+	IsText:	1
+	Label:	"Poland"
+	MinStr:	"Poland"
+	MaxStr:	"Poland"
+	Precision:	-3
+)
+
+(LClass.1231
+	IsText:	1
+	Label:	"Portugal"
+	MinStr:	"Portugal"
+	MaxStr:	"Portugal"
+	Precision:	-3
+)
+
+(LClass.1232
+	IsText:	1
+	Label:	"Puerto Rico"
+	MinStr:	"Puerto Rico"
+	MaxStr:	"Puerto Rico"
+	Precision:	-3
+)
+
+(LClass.1233
+	IsText:	1
+	Label:	"Qatar"
+	MinStr:	"Qatar"
+	MaxStr:	"Qatar"
+	Precision:	-3
+)
+
+(LClass.1234
+	IsText:	1
+	Label:	"Reunion"
+	MinStr:	"Reunion"
+	MaxStr:	"Reunion"
+	Precision:	-3
+)
+
+(LClass.1235
+	IsText:	1
+	Label:	"Romania"
+	MinStr:	"Romania"
+	MaxStr:	"Romania"
+	Precision:	-3
+)
+
+(LClass.1236
+	IsText:	1
+	Label:	"Russia"
+	MinStr:	"Russia"
+	MaxStr:	"Russia"
+	Precision:	-3
+)
+
+(LClass.1237
+	IsText:	1
+	Label:	"Rwanda"
+	MinStr:	"Rwanda"
+	MaxStr:	"Rwanda"
+	Precision:	-3
+)
+
+(LClass.1238
+	IsText:	1
+	Label:	"San Marino"
+	MinStr:	"San Marino"
+	MaxStr:	"San Marino"
+	Precision:	-3
+)
+
+(LClass.1239
+	IsText:	1
+	Label:	"Sao Tome and Principe"
+	MinStr:	"Sao Tome and Principe"
+	MaxStr:	"Sao Tome and Principe"
+	Precision:	-3
+)
+
+(LClass.1240
+	IsText:	1
+	Label:	"Saudi Arabia"
+	MinStr:	"Saudi Arabia"
+	MaxStr:	"Saudi Arabia"
+	Precision:	-3
+)
+
+(LClass.1241
+	IsText:	1
+	Label:	"Senegal"
+	MinStr:	"Senegal"
+	MaxStr:	"Senegal"
+	Precision:	-3
+)
+
+(LClass.1242
+	IsText:	1
+	Label:	"Serbia"
+	MinStr:	"Serbia"
+	MaxStr:	"Serbia"
+	Precision:	-3
+)
+
+(LClass.1243
+	IsText:	1
+	Label:	"Seychelles"
+	MinStr:	"Seychelles"
+	MaxStr:	"Seychelles"
+	Precision:	-3
+)
+
+(LClass.1244
+	IsText:	1
+	Label:	"Sierra Leone"
+	MinStr:	"Sierra Leone"
+	MaxStr:	"Sierra Leone"
+	Precision:	-3
+)
+
+(LClass.1245
+	IsText:	1
+	Label:	"Singapore"
+	MinStr:	"Singapore"
+	MaxStr:	"Singapore"
+	Precision:	-3
+)
+
+(LClass.1246
+	IsText:	1
+	Label:	"Slovakia"
+	MinStr:	"Slovakia"
+	MaxStr:	"Slovakia"
+	Precision:	-3
+)
+
+(LClass.1247
+	IsText:	1
+	Label:	"Slovenia"
+	MinStr:	"Slovenia"
+	MaxStr:	"Slovenia"
+	Precision:	-3
+)
+
+(LClass.1248
+	IsText:	1
+	Label:	"Solomon Islands"
+	MinStr:	"Solomon Islands"
+	MaxStr:	"Solomon Islands"
+	Precision:	-3
+)
+
+(LClass.1249
+	IsText:	1
+	Label:	"Somalia"
+	MinStr:	"Somalia"
+	MaxStr:	"Somalia"
+	Precision:	-3
+)
+
+(LClass.1250
+	IsText:	1
+	Label:	"South Africa"
+	MinStr:	"South Africa"
+	MaxStr:	"South Africa"
+	Precision:	-3
+)
+
+(LClass.1251
+	IsText:	1
+	Label:	"South Georgia and the South Sandwich Is"
+	MinStr:	"South Georgia and the South Sandwich Is"
+	MaxStr:	"South Georgia and the South Sandwich Is"
+	Precision:	-3
+)
+
+(LClass.1252
+	IsText:	1
+	Label:	"South Korea"
+	MinStr:	"South Korea"
+	MaxStr:	"South Korea"
+	Precision:	-3
+)
+
+(LClass.1253
+	IsText:	1
+	Label:	"Spain"
+	MinStr:	"Spain"
+	MaxStr:	"Spain"
+	Precision:	-3
+)
+
+(LClass.1254
+	IsText:	1
+	Label:	"Spratly Islands"
+	MinStr:	"Spratly Islands"
+	MaxStr:	"Spratly Islands"
+	Precision:	-3
+)
+
+(LClass.1255
+	IsText:	1
+	Label:	"Sri Lanka"
+	MinStr:	"Sri Lanka"
+	MaxStr:	"Sri Lanka"
+	Precision:	-3
+)
+
+(LClass.1256
+	IsText:	1
+	Label:	"St. Helena"
+	MinStr:	"St. Helena"
+	MaxStr:	"St. Helena"
+	Precision:	-3
+)
+
+(LClass.1257
+	IsText:	1
+	Label:	"St. Kitts and Nevis"
+	MinStr:	"St. Kitts and Nevis"
+	MaxStr:	"St. Kitts and Nevis"
+	Precision:	-3
+)
+
+(LClass.1258
+	IsText:	1
+	Label:	"St. Lucia"
+	MinStr:	"St. Lucia"
+	MaxStr:	"St. Lucia"
+	Precision:	-3
+)
+
+(LClass.1259
+	IsText:	1
+	Label:	"St. Pierre and Miquelon"
+	MinStr:	"St. Pierre and Miquelon"
+	MaxStr:	"St. Pierre and Miquelon"
+	Precision:	-3
+)
+
+(LClass.1260
+	IsText:	1
+	Label:	"St. Vincent and the Grenadines"
+	MinStr:	"St. Vincent and the Grenadines"
+	MaxStr:	"St. Vincent and the Grenadines"
+	Precision:	-3
+)
+
+(LClass.1261
+	IsText:	1
+	Label:	"Sudan"
+	MinStr:	"Sudan"
+	MaxStr:	"Sudan"
+	Precision:	-3
+)
+
+(LClass.1262
+	IsText:	1
+	Label:	"Suriname"
+	MinStr:	"Suriname"
+	MaxStr:	"Suriname"
+	Precision:	-3
+)
+
+(LClass.1263
+	IsText:	1
+	Label:	"Svalbard"
+	MinStr:	"Svalbard"
+	MaxStr:	"Svalbard"
+	Precision:	-3
+)
+
+(LClass.1264
+	IsText:	1
+	Label:	"Swaziland"
+	MinStr:	"Swaziland"
+	MaxStr:	"Swaziland"
+	Precision:	-3
+)
+
+(LClass.1265
+	IsText:	1
+	Label:	"Sweden"
+	MinStr:	"Sweden"
+	MaxStr:	"Sweden"
+	Precision:	-3
+)
+
+(LClass.1266
+	IsText:	1
+	Label:	"Switzerland"
+	MinStr:	"Switzerland"
+	MaxStr:	"Switzerland"
+	Precision:	-3
+)
+
+(LClass.1267
+	IsText:	1
+	Label:	"Syria"
+	MinStr:	"Syria"
+	MaxStr:	"Syria"
+	Precision:	-3
+)
+
+(LClass.1268
+	IsText:	1
+	Label:	"Taiwan"
+	MinStr:	"Taiwan"
+	MaxStr:	"Taiwan"
+	Precision:	-3
+)
+
+(LClass.1269
+	IsText:	1
+	Label:	"Tajikistan"
+	MinStr:	"Tajikistan"
+	MaxStr:	"Tajikistan"
+	Precision:	-3
+)
+
+(LClass.1270
+	IsText:	1
+	Label:	"Tanzania, United Republic of"
+	MinStr:	"Tanzania, United Republic of"
+	MaxStr:	"Tanzania, United Republic of"
+	Precision:	-3
+)
+
+(LClass.1271
+	IsText:	1
+	Label:	"Thailand"
+	MinStr:	"Thailand"
+	MaxStr:	"Thailand"
+	Precision:	-3
+)
+
+(LClass.1272
+	IsText:	1
+	Label:	"Togo"
+	MinStr:	"Togo"
+	MaxStr:	"Togo"
+	Precision:	-3
+)
+
+(LClass.1273
+	IsText:	1
+	Label:	"Tokelau"
+	MinStr:	"Tokelau"
+	MaxStr:	"Tokelau"
+	Precision:	-3
+)
+
+(LClass.1274
+	IsText:	1
+	Label:	"Tonga"
+	MinStr:	"Tonga"
+	MaxStr:	"Tonga"
+	Precision:	-3
+)
+
+(LClass.1275
+	IsText:	1
+	Label:	"Trinidad and Tobago"
+	MinStr:	"Trinidad and Tobago"
+	MaxStr:	"Trinidad and Tobago"
+	Precision:	-3
+)
+
+(LClass.1276
+	IsText:	1
+	Label:	"Tunisia"
+	MinStr:	"Tunisia"
+	MaxStr:	"Tunisia"
+	Precision:	-3
+)
+
+(LClass.1277
+	IsText:	1
+	Label:	"Turkey"
+	MinStr:	"Turkey"
+	MaxStr:	"Turkey"
+	Precision:	-3
+)
+
+(LClass.1278
+	IsText:	1
+	Label:	"Turkmenistan"
+	MinStr:	"Turkmenistan"
+	MaxStr:	"Turkmenistan"
+	Precision:	-3
+)
+
+(LClass.1279
+	IsText:	1
+	Label:	"Turks and Caicos Islands"
+	MinStr:	"Turks and Caicos Islands"
+	MaxStr:	"Turks and Caicos Islands"
+	Precision:	-3
+)
+
+(LClass.1280
+	IsText:	1
+	Label:	"Tuvalu"
+	MinStr:	"Tuvalu"
+	MaxStr:	"Tuvalu"
+	Precision:	-3
+)
+
+(LClass.1281
+	IsText:	1
+	Label:	"Uganda"
+	MinStr:	"Uganda"
+	MaxStr:	"Uganda"
+	Precision:	-3
+)
+
+(LClass.1282
+	IsText:	1
+	Label:	"Ukraine"
+	MinStr:	"Ukraine"
+	MaxStr:	"Ukraine"
+	Precision:	-3
+)
+
+(LClass.1283
+	IsText:	1
+	Label:	"United Arab Emirates"
+	MinStr:	"United Arab Emirates"
+	MaxStr:	"United Arab Emirates"
+	Precision:	-3
+)
+
+(LClass.1284
+	IsText:	1
+	Label:	"United Kingdom"
+	MinStr:	"United Kingdom"
+	MaxStr:	"United Kingdom"
+	Precision:	-3
+)
+
+(LClass.1285
+	IsText:	1
+	Label:	"United States"
+	MinStr:	"United States"
+	MaxStr:	"United States"
+	Precision:	-3
+)
+
+(LClass.1286
+	IsText:	1
+	Label:	"Uruguay"
+	MinStr:	"Uruguay"
+	MaxStr:	"Uruguay"
+	Precision:	-3
+)
+
+(LClass.1287
+	IsText:	1
+	Label:	"Uzbekistan"
+	MinStr:	"Uzbekistan"
+	MaxStr:	"Uzbekistan"
+	Precision:	-3
+)
+
+(LClass.1288
+	IsText:	1
+	Label:	"Vanuatu"
+	MinStr:	"Vanuatu"
+	MaxStr:	"Vanuatu"
+	Precision:	-3
+)
+
+(LClass.1289
+	IsText:	1
+	Label:	"Venezuela"
+	MinStr:	"Venezuela"
+	MaxStr:	"Venezuela"
+	Precision:	-3
+)
+
+(LClass.1290
+	IsText:	1
+	Label:	"Vietnam"
+	MinStr:	"Vietnam"
+	MaxStr:	"Vietnam"
+	Precision:	-3
+)
+
+(LClass.1291
+	IsText:	1
+	Label:	"Virgin Islands"
+	MinStr:	"Virgin Islands"
+	MaxStr:	"Virgin Islands"
+	Precision:	-3
+)
+
+(LClass.1292
+	IsText:	1
+	Label:	"Wake Island"
+	MinStr:	"Wake Island"
+	MaxStr:	"Wake Island"
+	Precision:	-3
+)
+
+(LClass.1293
+	IsText:	1
+	Label:	"Wallis and Futuna"
+	MinStr:	"Wallis and Futuna"
+	MaxStr:	"Wallis and Futuna"
+	Precision:	-3
+)
+
+(LClass.1294
+	IsText:	1
+	Label:	"West Bank"
+	MinStr:	"West Bank"
+	MaxStr:	"West Bank"
+	Precision:	-3
+)
+
+(LClass.1295
+	IsText:	1
+	Label:	"Western Sahara"
+	MinStr:	"Western Sahara"
+	MaxStr:	"Western Sahara"
+	Precision:	-3
+)
+
+(LClass.1296
+	IsText:	1
+	Label:	"Western Samoa"
+	MinStr:	"Western Samoa"
+	MaxStr:	"Western Samoa"
+	Precision:	-3
+)
+
+(LClass.1297
+	IsText:	1
+	Label:	"Yemen"
+	MinStr:	"Yemen"
+	MaxStr:	"Yemen"
+	Precision:	-3
+)
+
+(LClass.1298
+	IsText:	1
+	Label:	"Zaire"
+	MinStr:	"Zaire"
+	MaxStr:	"Zaire"
+	Precision:	-3
+)
+
+(LClass.1299
+	IsText:	1
+	Label:	"Zambia"
+	MinStr:	"Zambia"
+	MaxStr:	"Zambia"
+	Precision:	-3
+)
+
+(LClass.1300
+	IsText:	1
+	Label:	"Zimbabwe"
+	MinStr:	"Zimbabwe"
+	MaxStr:	"Zimbabwe"
+	Precision:	-3
+)
+
+(LClass.1301
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.1302
+	Color:	1303
+	Outline:	1
+	OutlineColor:	1304
+	OutlineWidth:	0.10000000000000
+	BgColor:	1305
+)
+
+(TClr.1303
+	Name:	"Transparent"
+)
+
+(TClr.1304
+	Name:	"Transparent"
+)
+
+(TClr.1305
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1306
+)
+
+(NameDict.1307
+)
+
+(Thresh.1308
+)
+
+(GSet.1309
+)
+
+(TxPosPly.1310
+	HAlign:	3
+	VAlign:	3
+)
+
+(ITheme.1311
+	Name:	"Peta balicontoh.jpg"
+	Source:	1312
+	Flags:	0x07
+	Legend:	1319
+	Threshold:	1323
+	View:	6
+	GSet:	1324
+	LegEditScript:	"View.EditLegend"
+)
+
+(ISrc.1312
+	Name:	1313
+	MapBox:	1315
+	BandStats:	1316
+	BandStats:	1317
+	BandStats:	1318
+)
+
+(SrcName.1313
+	FileName:	1314
+	Name:	"peta balicontoh.jpg"
+	OwnerClass:	"ISrc"
+)
+
+(FN.1314
+	Path:	"d:/ry/2/sistem informasi geografis/praktikum sig/praktikum sig/peta balicontoh.jpg"
+)
+
+(RectD.1315
+	Left:	114.31283721259378
+	Top:	-7.92636242813354
+	Right:	115.88036259292818
+	Bottom:	-8.98657316408162
+)
+
+(BStat.1316
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1317
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(BStat.1318
+	Max:	255.00000000000000
+	Mean:	127.50000000000000
+	StDv:	63.75000000000000
+)
+
+(MBILeg.1319
+	GreenBand:	1
+	BlueBand:	2
+	RedLUT:	1320
+	GreenLUT:	1321
+	BlueLUT:	1322
+)
+
+(ILUTIdn.1320
+)
+
+(ILUTIdn.1321
+)
+
+(ILUTIdn.1322
+)
+
+(Thresh.1323
+)
+
+(GSet.1324
+)
+
+(LButn.1325
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.1326
+	Disabled:	1
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.1327
+	Disabled:	1
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.1328
+	Path:	"$AVEXT/jfif.avx"
+)
+
+(FN.1329
+	Path:	"$AVEXT/transform.avx"
+)
+
+(NameDict.1330
+)
+
+(NameDict.1359
+	Obj:	1360
+	Obj:	1361
+)
+
+(AVDict.1360
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.1361
+	InternalName:	"_Thor_"
+)
+
+(DocGUI.1362
+	Name:	"View"
+	Type:	"View"
+	Modified:	1
+	Visible:	1
+	MenuBar:	1363
+	ButnBar:	1480
+	Popups:	1521
+	ToolBar:	1543
+	NewScript:	"View.New"
+	OpenScript:	"Doc.Open"
+	ActionScript:	"Doc.Action"
+	NewUpdateScript:	"Doc.NewUpdate"
+	OpenUpdateScript:	"Doc.OpenUpdate"
+	ActionUpdateScript:	"Doc.ActionUpdate"
+	Title:	"Views"
+	Icon:	1620
+)
+
+(MenuBar.1363
+	Child:	1364
+	Child:	1381
+	Child:	1401
+	Child:	1426
+	Child:	1449
+	Child:	1465
+	Child:	1475
+)
+
+(PMenu.1364
+	InternalName:	"File"
+	Child:	1365
+	Child:	1366
+	Child:	1367
+	Child:	1368
+	Child:	1369
+	Child:	1370
+	Child:	1371
+	Child:	1372
+	Child:	1373
+	Child:	1374
+	Child:	1375
+	Child:	1376
+	Child:	1377
+	Child:	1378
+	Child:	1379
+	Child:	1380
+	Label:	"&File"
+)
+
+(Choice.1365
+	Help:	"Closes the active component"
+	HelpTopic:	"Close"
+	Label:	"&Close"
+	Click:	"Project.CloseDoc"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1366
+	Help:	"Closes all components"
+	HelpTopic:	"Close_All"
+	Label:	"Close &All"
+	Click:	"Project.CloseAll"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1367
+)
+
+(Choice.1368
+	Help:	"Allows you to specify the current working directory"
+	HelpTopic:	"Set_Working_Directory"
+	Label:	"Set &Working Directory..."
+	Click:	"Project.SetProjectWorkDir"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1369
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.1370
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1371
+)
+
+(Choice.1372
+	Help:	"Displays the Extensions dialog"
+	HelpTopic:	"Extensions"
+	Label:	"Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1373
+)
+
+(Choice.1374
+	Help:	"Prints the view"
+	HelpTopic:	"Print"
+	Label:	"&Print..."
+	Click:	"View.Print"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1375
+	Help:	"Edits the printer and the printing options"
+	HelpTopic:	"Print_Setup"
+	Label:	"P&rint Setup..."
+	Click:	"Project.PrintSetup"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1376
+	Help:	"Exports the view"
+	HelpTopic:	"Export"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Export..."
+	Click:	"View.ExportDisp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1377
+)
+
+(Choice.1378
+	Help:	"Displays the dialog box to delete, edit, and copy data sources"
+	HelpTopic:	"Manage_Sources"
+	Label:	"&Manage Data Sources..."
+	Click:	"View.ManageSources"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1379
+)
+
+(Choice.1380
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1381
+	InternalName:	"Edit"
+	Child:	1382
+	Child:	1383
+	Child:	1384
+	Child:	1385
+	Child:	1386
+	Child:	1387
+	Child:	1388
+	Child:	1389
+	Child:	1390
+	Child:	1391
+	Child:	1392
+	Child:	1393
+	Child:	1394
+	Child:	1395
+	Child:	1396
+	Child:	1397
+	Child:	1398
+	Child:	1399
+	Child:	1400
+	Label:	"&Edit"
+)
+
+(Choice.1382
+	Help:	"Cuts the active themes to the clipboard"
+	HelpTopic:	"Cut_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"Cut T&hemes"
+	Click:	"View.CutThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1383
+	Help:	"Copies the active themes to the clipboard"
+	HelpTopic:	"Copy_Themes"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Cop&y Themes"
+	Click:	"View.CopyThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1384
+	Help:	"Removes the active themes from the view"
+	HelpTopic:	"Delete_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"De&lete Themes"
+	Click:	"View.DeleteThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1385
+)
+
+(Choice.1386
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"&Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.Ctrl+Z"
+)
+
+(Choice.1387
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	HelpTopic:	"Redo_Feature_Edit_on_a_view"
+	Update:	"View.RedoEditUpdate"
+	Label:	"&Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.Ctrl+Y"
+)
+
+(Space.1388
+)
+
+(Choice.1389
+	Disabled:	1
+	Help:	"Cuts the selected graphics to the clipboard"
+	HelpTopic:	"Cut_Graphics"
+	Update:	"View.CutUpdate"
+	Label:	"Cu&t Graphics"
+	Click:	"View.CutGraphics"
+	Shortcut:	"Keys.Ctrl+X"
+)
+
+(Choice.1390
+	Disabled:	1
+	Help:	"Copies the selected graphics to the clipboard"
+	HelpTopic:	"Copy_Graphics"
+	Update:	"View.CopyUpdate"
+	Label:	"&Copy Graphics"
+	Click:	"View.CopyGraphics"
+	Shortcut:	"Keys.Ctrl+C"
+)
+
+(Choice.1391
+	Disabled:	1
+	Help:	"Removes the selected graphics from the view"
+	HelpTopic:	"Delete_Graphics"
+	Update:	"View.DeleteUpdate"
+	Label:	"&Delete Graphics"
+	Click:	"View.DeleteGraphics"
+	Shortcut:	"Keys.Del"
+)
+
+(Space.1392
+)
+
+(Choice.1393
+	Disabled:	1
+	Help:	"Combines the selected polygons"
+	HelpTopic:	"Combine_Graphics"
+	Update:	"View.CombineUpdate"
+	Label:	"Com&bine Graphics"
+	Click:	"View.CombineGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1394
+	Disabled:	1
+	Help:	"Unions the selected graphics to create a new graphic"
+	HelpTopic:	"Union_Graphics"
+	Update:	"View.UnionUpdate"
+	Label:	"U&nion Graphics"
+	Click:	"View.UnionGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1395
+	Disabled:	1
+	Help:	"Subtracts one selected polygon from the other selected polygon"
+	HelpTopic:	"Subtract_Graphics"
+	Update:	"View.SubtractUpdate"
+	Label:	"&Subtract Graphics"
+	Click:	"View.SubtractGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1396
+	Disabled:	1
+	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
+	HelpTopic:	"Intersect_Graphics"
+	Update:	"View.IntersectUpdate"
+	Label:	"&Intersect Graphics"
+	Click:	"View.IntersectGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1397
+)
+
+(Choice.1398
+	Disabled:	1
+	Help:	"Inserts the contents of the clipboard"
+	HelpTopic:	"Paste"
+	Update:	"View.PasteUpdate"
+	Label:	"&Paste"
+	Click:	"View.Paste"
+	Shortcut:	"Keys.Ctrl+V"
+)
+
+(Space.1399
+)
+
+(Choice.1400
+	Disabled:	1
+	Help:	"Selects all graphics in the view"
+	HelpTopic:	"Select_All_Graphics"
+	Update:	"View.HasGraphicsUpdate"
+	Label:	"Select &All Graphics"
+	Click:	"Graphic.SelectAll"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1401
+	InternalName:	"View"
+	Child:	1402
+	Child:	1403
+	Child:	1404
+	Child:	1405
+	Child:	1406
+	Child:	1407
+	Child:	1408
+	Child:	1409
+	Child:	1410
+	Child:	1411
+	Child:	1412
+	Child:	1413
+	Child:	1414
+	Child:	1415
+	Child:	1416
+	Child:	1417
+	Child:	1418
+	Child:	1419
+	Child:	1420
+	Child:	1421
+	Child:	1422
+	Child:	1423
+	Label:	"&View"
+)
+
+(Choice.1402
+	Help:	"Displays the dialog box to edit properties of the view"
+	HelpTopic:	"View_Properties"
+	Label:	"&Properties..."
+	Click:	"View.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1403
+)
+
+(Choice.1404
+	Help:	"Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Label:	"&Add Theme..."
+	Click:	"View.Add"
+	Shortcut:	"Keys.Ctrl+T"
+)
+
+(Choice.1405
+	Disabled:	1
+	Help:	"Displays a dialog box to create a geocoded theme"
+	HelpTopic:	"Geocode_Addresses"
+	Update:	"View.GeocodeUpdate"
+	Label:	"&Geocode Addresses..."
+	Click:	"View.Geocode"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1406
+	Disabled:	1
+	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
+	HelpTopic:	"Add_Event_Theme"
+	Update:	"View.AddEventUpdate"
+	Label:	"Add &Event Theme..."
+	Click:	"View.AddEvent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1407
+	Help:	"Creates a new theme"
+	HelpTopic:	"New_Theme"
+	Label:	"&New Theme..."
+	Click:	"View.NewTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1408
+	Help:	"Makes all themes visible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Themes On"
+	Click:	"View.ThemesOn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1409
+	Help:	"Makes all themes invisible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"T&hemes Off"
+	Click:	"View.ThemesOff"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1410
+)
+
+(Choice.1411
+	Help:	"Create a Layout from the View"
+	HelpTopic:	"Layout_menu_choice"
+	Update:	"View.HasThemesUpdate"
+	Label:	"La&yout..."
+	Click:	"View.Layout"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1412
+)
+
+(Choice.1413
+	Help:	"Shows a dialog where you can change the style of the TOC"
+	HelpTopic:	"TOC_Defaults"
+	Update:	"TocDefs.ShowUpdate"
+	Label:	"TOC Style..."
+	Click:	"TocDefs.Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1414
+)
+
+(Choice.1415
+	Help:	"Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Label:	"Full E&xtent"
+	Click:	"View.ZoomFullExtent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1416
+	Help:	"Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &In"
+	Click:	"View.ZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1417
+	Help:	"Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &Out"
+	Click:	"View.ZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1418
+	Help:	"Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Zoom To Themes"
+	Click:	"View.ZoomToThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1419
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom To &Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1420
+	Help:	"Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Label:	"Zoom Pre&vious"
+	Click:	"View.UndoZoom"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1421
+)
+
+(Choice.1422
+	Disabled:	1
+	Help:	"Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.TabularThemesUpdate"
+	Label:	"&Find..."
+	Click:	"View.Find"
+	Shortcut:	"Keys.Ctrl+F"
+)
+
+(Choice.1423
+	Disabled:	1
+	Help:	"Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Label:	"&Locate Address..."
+	Click:	"View.Locate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1426
+	InternalName:	"Theme"
+	Child:	1427
+	Child:	1428
+	Child:	1429
+	Child:	1430
+	Child:	1431
+	Child:	1432
+	Child:	1433
+	Child:	1434
+	Child:	1435
+	Child:	1436
+	Child:	1437
+	Child:	1438
+	Child:	1439
+	Child:	1440
+	Child:	1441
+	Child:	1442
+	Child:	1443
+	Child:	1444
+	Child:	1445
+	Child:	1446
+	Child:	1447
+	Child:	1448
+	Label:	"&Theme"
+)
+
+(Choice.1427
+	Help:	"Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"View.ThemeProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1428
+)
+
+(Choice.1429
+	Disabled:	1
+	Help:	"Starts or stops editing of shapefile"
+	HelpTopic:	"Start_Stop_Editing_in_a_view"
+	Update:	"View.ToggleEditingUpdate"
+	Label:	"Start &Editing"
+	Click:	"View.ToggleEditing"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1430
+	Disabled:	1
+	Help:	"Save edits to the source shapefile"
+	HelpTopic:	"Save_edits_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save Ed&its"
+	Click:	"View.SaveEdits"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1431
+	Disabled:	1
+	Help:	"Saves edits to a new shapefile"
+	HelpTopic:	"Save_edits_as_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save E&dits As..."
+	Click:	"View.SaveEditsAs"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1432
+	Disabled:	1
+	Help:	"Converts a theme to a shapefile"
+	HelpTopic:	"Convert_to_Shapefile"
+	Update:	"View.ExportUpdate"
+	Label:	"Convert to &Shapefile..."
+	Click:	"View.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1433
+)
+
+(Choice.1434
+	Help:	"Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Edit &Legend..."
+	Click:	"View.EditLegendClick"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1435
+	Help:	"Shows or hides the active themes' legends"
+	HelpTopic:	"Hide_show_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Hide/Show Legend"
+	Click:	"View.ToggleLegend"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1436
+)
+
+(Choice.1437
+	Disabled:	1
+	Help:	"Displays the Re-match dialog for re-matching addresses"
+	HelpTopic:	"Re_match_Addresses"
+	Update:	"View.EditMatchUpdate"
+	Label:	"&Re-match Addresses..."
+	Click:	"View.EditMatch"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1438
+)
+
+(Choice.1439
+	Disabled:	1
+	Help:	"Labels features in active, visible themes"
+	HelpTopic:	"Auto_label"
+	Update:	"View.LabelThemesUpdate"
+	Label:	"&Auto-label..."
+	Click:	"View.LabelThemes"
+	Shortcut:	"Keys.Ctrl+L"
+)
+
+(Choice.1440
+	Disabled:	1
+	Help:	"Removes any labels from active themes"
+	HelpTopic:	"Remove_Labels"
+	Update:	"View.RemoveThemeLabelsUpdate"
+	Label:	"Rem&ove Labels"
+	Click:	"View.RemoveThemeLabels"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.1441
+	Disabled:	1
+	Help:	"Removes the overlapping labels from active themes, if they are still green."
+	HelpTopic:	"Remove_Overlapping_Labels"
+	Update:	"View.RemoveOverlapThemeLabelsUpdate"
+	Label:	"Remove Overlappi&ng Labels"
+	Click:	"View.RemoveOverlapThemeLabels"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1442
+	Disabled:	1
+	Help:	"Converts selected overlapping labels to symbol of selected good label"
+	HelpTopic:	"Convert_Overlapping_Labels"
+	Update:	"View.ConvertOverlapLabelsUpdate"
+	Label:	"&Convert Overlapping Labels"
+	Click:	"View.ConvertOverlapLabels"
+	Shortcut:	"Keys.Ctrl+O"
+)
+
+(Space.1443
+)
+
+(Choice.1444
+	Disabled:	1
+	Help:	"Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Label:	"&Table..."
+	Click:	"View.ShowTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1445
+	Disabled:	1
+	Help:	"Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"&Query..."
+	Click:	"View.Query"
+	Shortcut:	"Keys.Ctrl+Q"
+)
+
+(Choice.1446
+	Disabled:	1
+	Help:	"Selects features in the active themes using another theme's features"
+	HelpTopic:	"Select_By_Theme"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Select &By Theme..."
+	Click:	"View.SelectByTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1447
+	Help:	"Creates buffers around features"
+	HelpTopic:	"Create_Buffer_Choice"
+	Update:	"WizardBuffer.OpenDialogUpdate"
+	Label:	"Create Buffers..."
+	Click:	"WizardBuffer.OpenDialog"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1448
+	Disabled:	1
+	Help:	"Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selected &Features"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1449
+	InternalName:	"Graphics"
+	Child:	1450
+	Child:	1451
+	Child:	1452
+	Child:	1453
+	Child:	1454
+	Child:	1455
+	Child:	1456
+	Child:	1457
+	Child:	1458
+	Child:	1459
+	Child:	1460
+	Child:	1461
+	Child:	1462
+	Child:	1463
+	Child:	1464
+	Label:	"&Graphics"
+)
+
+(Choice.1450
+	Disabled:	1
+	Help:	"Displays the property editor for the selected graphic"
+	HelpTopic:	"Graphic_Properties"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Properties..."
+	Click:	"Graphic.Edit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1451
+)
+
+(Choice.1452
+	Help:	"Shows a dialog where you can set the default values for the label and text tools"
+	HelpTopic:	"Default_settings_for_text_and_label_tools"
+	Label:	"&Text and Label Defaults..."
+	Click:	"Graphic.Label Defaults Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1453
+)
+
+(Choice.1454
+	Disabled:	1
+	Help:	"Displays a dialog box to adjust size and position of selected graphic"
+	HelpTopic:	"Size_and_Position"
+	Update:	"Graphic.SingleSelectionUpdate"
+	Label:	"&Size and Position..."
+	Click:	"Graphic.SizePos"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1455
+	Disabled:	1
+	Help:	"Aligns the selected graphics"
+	HelpTopic:	"Align"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Align..."
+	Click:	"Graphic.Align"
+	Shortcut:	"Keys.Ctrl+A"
+)
+
+(Space.1456
+)
+
+(Choice.1457
+	Disabled:	1
+	Help:	"Moves selected graphics in front of other graphics"
+	HelpTopic:	"Bring_to_Front_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Bring to &Front"
+	Click:	"Graphic.ToFront"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1458
+	Disabled:	1
+	Help:	"Moves selected graphics behind other graphics"
+	HelpTopic:	"Send_to_Back_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Send to &Back "
+	Click:	"Graphic.ToBack"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1459
+	Disabled:	1
+	Help:	"Groups selected graphics"
+	HelpTopic:	"Group_on_a_view"
+	Update:	"Graphic.GroupUpdate"
+	Label:	"&Group"
+	Click:	"Graphic.Group"
+	Shortcut:	"Keys.Ctrl+G"
+)
+
+(Choice.1460
+	Disabled:	1
+	Help:	"Ungroups selected graphics"
+	HelpTopic:	"Ungroup_on_a_view"
+	Update:	"Graphic.UngroupUpdate"
+	Label:	"&Ungroup"
+	Click:	"Graphic.Ungroup"
+	Shortcut:	"Keys.Ctrl+U"
+)
+
+(Space.1461
+)
+
+(Choice.1462
+	Disabled:	1
+	Help:	"Associates selected graphics with active themes"
+	HelpTopic:	"Attach_Graphics"
+	Update:	"View.AddGraphicsUpdate"
+	Label:	"A&ttach Graphics"
+	Click:	"View.AddGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1463
+	Disabled:	1
+	Help:	"Removes association between graphics and active themes"
+	HelpTopic:	"Detach_Graphics"
+	Update:	"View.ClearGraphicsUpdate"
+	Label:	"&Detach Graphics"
+	Click:	"View.ClearGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1464
+)
+
+(PMenu.1465
+	InternalName:	"Window"
+	Child:	1466
+	Child:	1467
+	Child:	1468
+	Child:	1469
+	Child:	1470
+	Child:	1471
+	Child:	1473
+	Child:	1474
+	Label:	"&Window"
+)
+
+(Choice.1466
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1467
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1468
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1469
+)
+
+(Choice.1470
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.1471
+	ObjectTag:	1472
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.1472
+	S:	"Untitled View1"
+)
+
+(Choice.1473
+	Help:	"Activates Untitled"
+	Label:	"&1 Untitled"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1474
+	Help:	"Activates View1"
+	Label:	"&2 View1"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1475
+	InternalName:	"Help"
+	Child:	1476
+	Child:	1477
+	Child:	1478
+	Child:	1479
+	Label:	"&Help"
+)
+
+(Choice.1476
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1477
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1478
+)
+
+(Choice.1479
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.1480
+	Child:	1481
+	Child:	1483
+	Child:	1484
+	Child:	1486
+	Child:	1487
+	Child:	1489
+	Child:	1491
+	Child:	1493
+	Child:	1494
+	Child:	1496
+	Child:	1498
+	Child:	1500
+	Child:	1501
+	Child:	1503
+	Child:	1505
+	Child:	1507
+	Child:	1509
+	Child:	1511
+	Child:	1513
+	Child:	1514
+	Child:	1516
+	Child:	1518
+	Child:	1519
+)
+
+(Butn.1481
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	1482
+	Click:	"Project.Save"
+)
+
+(AVIcon.1482
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.1483
+)
+
+(Butn.1484
+	Help:	"Add Theme//Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Icon:	1485
+	Click:	"View.Add"
+)
+
+(AVIcon.1485
+	Name:	"AddTheme"
+	Res:	"Icons.AddTheme"
+
+)
+
+(Space.1486
+)
+
+(Butn.1487
+	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1488
+	Click:	"View.ThemeProperties"
+)
+
+(AVIcon.1488
+	Name:	"Props"
+	Res:	"Icons.Props"
+
+)
+
+(Butn.1489
+	Help:	"Edit Legend//Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1490
+	Click:	"View.EditLegendClick"
+)
+
+(AVIcon.1490
+	Name:	"Legend"
+	Res:	"Icons.Legend"
+
+)
+
+(Butn.1491
+	Disabled:	1
+	Help:	"Open Theme Table//Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Icon:	1492
+	Click:	"View.ShowTable"
+)
+
+(AVIcon.1492
+	Name:	"Table"
+	Res:	"Icons.Table"
+
+)
+
+(Space.1493
+)
+
+(Butn.1494
+	Disabled:	1
+	Help:	"Find//Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.TabularThemesUpdate"
+	Icon:	1495
+	Click:	"View.Find"
+)
+
+(AVIcon.1495
+	Name:	"Find"
+	Res:	"Icons.Find"
+
+)
+
+(Butn.1496
+	Disabled:	1
+	Help:	"Locate Address//Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Icon:	1497
+	Click:	"View.Locate"
+)
+
+(AVIcon.1497
+	Name:	"AddMatch"
+	Res:	"Icons.AddMatch"
+
+)
+
+(Butn.1498
+	Disabled:	1
+	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	1499
+	Click:	"View.Query"
+)
+
+(AVIcon.1499
+	Name:	"QueryBuilder"
+	Res:	"Icons.QueryBuilder"
+
+)
+
+(Space.1500
+)
+
+(Butn.1501
+	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Icon:	1502
+	Click:	"View.ZoomFullExtent"
+)
+
+(AVIcon.1502
+	Name:	"ZoomView"
+	Res:	"Icons.ZoomView"
+
+)
+
+(Butn.1503
+	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1504
+	Click:	"View.ZoomToThemes"
+)
+
+(AVIcon.1504
+	Name:	"ZoomTheme"
+	Res:	"Icons.ZoomTheme"
+
+)
+
+(Butn.1505
+	Disabled:	1
+	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	1506
+	Click:	"View.ZoomToSelected"
+)
+
+(AVIcon.1506
+	Name:	"ZoomToSelected"
+	Res:	"Icons.ZoomToSelected"
+
+)
+
+(Butn.1507
+	Help:	"Zoom In//Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Icon:	1508
+	Click:	"View.ZoomIn"
+)
+
+(AVIcon.1508
+	Name:	"ZoomIn"
+	Res:	"Icons.ZoomIn"
+
+)
+
+(Butn.1509
+	Help:	"Zoom Out//Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Icon:	1510
+	Click:	"View.ZoomOut"
+)
+
+(AVIcon.1510
+	Name:	"ZoomOut"
+	Res:	"Icons.ZoomOut"
+
+)
+
+(Butn.1511
+	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Icon:	1512
+	Click:	"View.UndoZoom"
+)
+
+(AVIcon.1512
+	Name:	"ZoomPrevious"
+	Res:	"Icons.ZoomPrevious"
+
+)
+
+(Space.1513
+)
+
+(Butn.1514
+	Disabled:	1
+	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
+	HelpTopic:	"Select_Features_Using_Graphic"
+	Update:	"View.SpatialSelectUpdate"
+	Icon:	1515
+	Click:	"View.SpatialSelect"
+)
+
+(AVIcon.1515
+	Name:	"SpatialSelect"
+	Res:	"Icons.SpatialSelect"
+
+)
+
+(Butn.1516
+	Disabled:	1
+	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	1517
+	Click:	"View.ClearSelect"
+)
+
+(AVIcon.1517
+	Name:	"SelectNone"
+	Res:	"Icons.SelectNone"
+
+)
+
+(Space.1518
+)
+
+(Butn.1519
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	1520
+	Click:	"Help.Tool"
+)
+
+(AVIcon.1520
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.1521
+	Child:	1522
+)
+
+(Popup.1522
+	Child:	1523
+	Child:	1524
+	Child:	1525
+	Child:	1526
+	Child:	1527
+	Child:	1528
+	Child:	1529
+	Child:	1530
+	Child:	1531
+	Child:	1532
+	Child:	1533
+	Child:	1534
+	Child:	1535
+	Child:	1536
+	Child:	1537
+	Child:	1538
+	Child:	1539
+	Child:	1540
+	Child:	1541
+	Child:	1542
+	Label:	"Menu"
+)
+
+(Choice.1523
+	Disabled:	1
+	Invisible:	1
+	Help:	"Deletes the last entered point on the line or polygon being drawn"
+	Update:	"View.DelLastPointUpdate"
+	Label:	"Delete Last Point"
+	Click:	"View.DeleteLastPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1524
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1525
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	Update:	"View.RedoEditUpdate"
+	Label:	"Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1526
+)
+
+(Choice.1527
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns general snapping on"
+	Update:	"View.ToggleGeneralSnapUpdate"
+	Label:	"Enable General Snapping"
+	Click:	"View.ToggleGeneralSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1528
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns interactive snapping on"
+	Update:	"View.ToggleInteractiveSnapUpdate"
+	Label:	"Enable Interactive Snapping"
+	Click:	"View.ToggleInteractiveSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1529
+	Help:	"Turns snap tolerance cursor on"
+	Update:	"View.ToggleTolCursorUpdate"
+	Label:	"Show Snap Tolerance Cursor"
+	Click:	"View.ToggleTolCursor"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1530
+)
+
+(Choice.1531
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Vertex"
+	Click:	"View.SnapToVertex"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1532
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest line segment"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Boundary"
+	Click:	"View.SnapToBoundary"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1533
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest node common to two or more features"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Intersection"
+	Click:	"View.SnapToIntersection"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1534
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
+	Update:	"View.SnapToEndPointUpdate"
+	Label:	"Snap to Endpoint"
+	Click:	"View.SnapToEndPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1535
+)
+
+(Choice.1536
+	Disabled:	1
+	Help:	"Unselects the selected features in all active themes"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selection"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1537
+	Disabled:	1
+	Help:	"Zooms in at point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom In"
+	Click:	"View.PopupZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1538
+	Disabled:	1
+	Help:	"Zooms out from point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom Out"
+	Click:	"View.PopupZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1539
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom to Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1540
+	Disabled:	1
+	Help:	"Centers display on point where you click to bring up popup"
+	Update:	"View.HasDataUpdate"
+	Label:	"Pan"
+	Click:	"View.PopupPan"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1541
+)
+
+(Choice.1542
+	Disabled:	1
+	Help:	"Opens the shape properties window for editing vertex locations"
+	Update:	"ShapeWin.PopUp Update"
+	Label:	"Shape Properties"
+	Click:	"ShapeWin.PopUp Open"
+	Shortcut:	"Keys.None"
+)
+
+(ToolBar.1543
+	Child:	1544
+	Child:	1546
+	Child:	1548
+	Child:	1550
+	Child:	1552
+	Child:	1554
+	Child:	1556
+	Child:	1558
+	Child:	1560
+	Child:	1562
+	Child:	1564
+	Child:	1583
+	Child:	1596
+	Child:	1615
+)
+
+(Tool.1544
+	Disabled:	1
+	Help:	"Identify//Provides information about a feature"
+	HelpTopic:	"Identify_tool"
+	Update:	"View.IdentifyUpdate"
+	Icon:	1545
+	Cursor:	"Cursors.ID"
+	Apply:	"View.Identify"
+)
+
+(AVIcon.1545
+	Name:	"ID"
+	Res:	"Icons.ID"
+
+)
+
+(Tool.1546
+	Help:	"Pointer//Selects, moves, and resizes graphics"
+	HelpTopic:	"Pointer_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1547
+	Cursor:	"Cursors.Select"
+	Apply:	"View.Select"
+	Click:	"View.SelectTool"
+)
+
+(AVIcon.1547
+	Name:	"Select"
+	Res:	"Icons.Select"
+
+)
+
+(Tool.1548
+	Disabled:	1
+	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
+	HelpTopic:	"Vertex_Edit_tool"
+	Update:	"View.SelectToEditUpdate"
+	Icon:	1549
+	Cursor:	"Cursors.SelectEdit"
+	Apply:	"View.SelectToEdit"
+	Click:	"View.SelectToEditTool"
+)
+
+(AVIcon.1549
+	Name:	"SelectEdit"
+	Res:	"Icons.SelectEdit"
+
+)
+
+(Tool.1550
+	Disabled:	1
+	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
+	HelpTopic:	"Select_Feature_tool"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	1551
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SelectPoint"
+)
+
+(AVIcon.1551
+	Name:	"FeatureSelect"
+	Res:	"Icons.FeatureSelect"
+
+)
+
+(Tool.1552
+	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
+	HelpTopic:	"Zoom_In_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1553
+	Cursor:	"Cursors.ZoomIn"
+	Apply:	"View.ZoomInTool"
+)
+
+(AVIcon.1553
+	Name:	"ZoomInTool"
+	Res:	"Icons.ZoomInTool"
+
+)
+
+(Tool.1554
+	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
+	HelpTopic:	"Zoom_Out_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1555
+	Cursor:	"Cursors.ZoomOut"
+	Apply:	"View.ZoomOutTool"
+)
+
+(AVIcon.1555
+	Name:	"ZoomOutTool"
+	Res:	"Icons.ZoomOutTool"
+
+)
+
+(Tool.1556
+	Help:	"Pan//Drags the display in the direction you move the cursor"
+	HelpTopic:	"Pan_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1557
+	Cursor:	"Cursors.Pan"
+	Apply:	"View.Pan"
+)
+
+(AVIcon.1557
+	Name:	"Pan"
+	Res:	"Icons.Pan"
+
+)
+
+(Tool.1558
+	Help:	"Measure//Measures distance"
+	HelpTopic:	"Measure_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1559
+	Cursor:	"Cursors.Measure"
+	Apply:	"View.Measure"
+)
+
+(AVIcon.1559
+	Name:	"Measure"
+	Res:	"Icons.Measure"
+
+)
+
+(Tool.1560
+	Disabled:	1
+	Help:	"Hot Link//Follows a hot link in the active themes"
+	HelpTopic:	"Hot_Link_tool"
+	Update:	"View.HotLinkUpdate"
+	Icon:	1561
+	Cursor:	"Cursors.Media"
+	Apply:	"View.HotLink"
+)
+
+(AVIcon.1561
+	Name:	"Media"
+	Res:	"Icons.Media"
+
+)
+
+(Tool.1562
+	Disabled:	1
+	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
+	HelpTopic:	"Area_Of_Interest_tool"
+	Update:	"View.AOIToolUpdate"
+	Icon:	1563
+	Cursor:	"Cursors.Default"
+	Apply:	"View.AOITool"
+)
+
+(AVIcon.1563
+	Name:	"AOI"
+	Res:	"Icons.AOI"
+
+)
+
+(ToolMenu.1564
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	1565
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+	Child:	1566
+	Child:	1567
+	Child:	1569
+	Child:	1571
+	Child:	1573
+	Child:	1575
+	Child:	1577
+	Child:	1579
+	Child:	1581
+)
+
+(AVIcon.1565
+	Name:	"Tag"
+	Res:	"Icons.Tag"
+
+)
+
+(Tool.1566
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	1565
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+)
+
+(Tool.1567
+	Disabled:	1
+	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1568
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.CalloutLabelTool"
+)
+
+(AVIcon.1568
+	Name:	"CallOutLabel1"
+	Res:	"Icons.CallOutLabel1"
+
+)
+
+(Tool.1569
+	Disabled:	1
+	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1570
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.BulletLeaderLabelTool"
+)
+
+(AVIcon.1570
+	Name:	"CallOutLabel2"
+	Res:	"Icons.CallOutLabel2"
+
+)
+
+(Tool.1571
+	Disabled:	1
+	Help:	"Banner Label//Click on a feature you want to label"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1572
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.ShadowBoxLabelTool"
+)
+
+(AVIcon.1572
+	Name:	"CallOutLabel3"
+	Res:	"Icons.CallOutLabel3"
+
+)
+
+(Tool.1573
+	Disabled:	1
+	Help:	"U.S. Interstate//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1574
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway1 Apply"
+)
+
+(AVIcon.1574
+	Name:	"BW US Interstate"
+	Res:	"Icons.BW US Interstate"
+
+)
+
+(Tool.1575
+	Disabled:	1
+	Help:	"U.S. Route//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1576
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway2 Apply"
+)
+
+(AVIcon.1576
+	Name:	"USRoute"
+	Res:	"Icons.USRoute"
+
+)
+
+(Tool.1577
+	Disabled:	1
+	Help:	"Generic State Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1578
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway3 Apply"
+)
+
+(AVIcon.1578
+	Name:	"GenericStateHighway"
+	Res:	"Icons.GenericStateHighway"
+
+)
+
+(Tool.1579
+	Disabled:	1
+	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1580
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway4 Apply"
+)
+
+(AVIcon.1580
+	Name:	"GenericHighway1"
+	Res:	"Icons.GenericHighway1"
+
+)
+
+(Tool.1581
+	Disabled:	1
+	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
+	Update:	"View.CalloutUpdate"
+	Icon:	1582
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway5 Apply"
+)
+
+(AVIcon.1582
+	Name:	"GenericHighway2"
+	Res:	"Icons.GenericHighway2"
+
+)
+
+(ToolMenu.1583
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1584
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+	Child:	1585
+	Child:	1586
+	Child:	1588
+	Child:	1590
+	Child:	1592
+	Child:	1594
+)
+
+(AVIcon.1584
+	Name:	"Text"
+	Res:	"Icons.Text"
+
+)
+
+(Tool.1585
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1584
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+)
+
+(Tool.1586
+	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1587
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.CalloutTextTool"
+)
+
+(AVIcon.1587
+	Name:	"CallOutText1"
+	Res:	"Icons.CallOutText1"
+
+)
+
+(Tool.1588
+	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1589
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.BulletLeaderTextTool"
+)
+
+(AVIcon.1589
+	Name:	"CallOutText2"
+	Res:	"Icons.CallOutText2"
+
+)
+
+(Tool.1590
+	Help:	"Banner Text//Click where you want your label to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1591
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.ShadowBoxTextTool"
+)
+
+(AVIcon.1591
+	Name:	"CallOutText3"
+	Res:	"Icons.CallOutText3"
+
+)
+
+(Tool.1592
+	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1593
+	Cursor:	"Cursors.Target"
+	Apply:	"View.CreateDropShadowText"
+)
+
+(AVIcon.1593
+	Name:	"DropShadowText"
+	Res:	"Icons.DropShadowText"
+
+)
+
+(Tool.1594
+	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1595
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.SplineText"
+)
+
+(AVIcon.1595
+	Name:	"TextAligned"
+	Res:	"Icons.TextAligned"
+
+)
+
+(ToolMenu.1596
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	1597
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	1598
+	Child:	1599
+	Child:	1601
+	Child:	1603
+	Child:	1605
+	Child:	1607
+	Child:	1609
+	Child:	1611
+	Child:	1613
+)
+
+(AVIcon.1597
+	Name:	"Point"
+	Res:	"Icons.Point"
+
+)
+
+(Tool.1598
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	1597
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+)
+
+(Tool.1599
+	Help:	"Draw Straight Line//Creates a line on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.GraphicToolUpdate"
+	Icon:	1600
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.LineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.1600
+	Name:	"SelectLine"
+	Res:	"Icons.SelectLine"
+
+)
+
+(Tool.1601
+	Help:	"Draw Line//Creates a line with two or more points on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyLineToolUpdate"
+	Icon:	1602
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyLineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.1602
+	Name:	"Lines"
+	Res:	"Icons.Lines"
+
+)
+
+(Tool.1603
+	Help:	"Draw Rectangle//Creates a rectangle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1604
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.RectTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1604
+	Name:	"Rect"
+	Res:	"Icons.Rect"
+
+)
+
+(Tool.1605
+	Help:	"Draw Circle//Creates a circle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1606
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.CircleTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1606
+	Name:	"Disk"
+	Res:	"Icons.Disk"
+
+)
+
+(Tool.1607
+	Help:	"Draw Polygon//Creates a polygon on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1608
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1608
+	Name:	"Poly"
+	Res:	"Icons.Poly"
+
+)
+
+(Tool.1609
+	Disabled:	1
+	Help:	"Draw Line to Split Feature//Creates a line to split line features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitLineToolUpdate"
+	Icon:	1610
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.1610
+	Name:	"SplitLine"
+	Res:	"Icons.SplitLine"
+
+)
+
+(Tool.1611
+	Disabled:	1
+	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitPolyToolUpdate"
+	Icon:	1612
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.1612
+	Name:	"SplitPoly"
+	Res:	"Icons.SplitPoly"
+
+)
+
+(Tool.1613
+	Disabled:	1
+	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.AutoCompleteUpdate"
+	Icon:	1614
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.AutoCompleteTool"
+)
+
+(AVIcon.1614
+	Name:	"AutoComplete"
+	Res:	"Icons.AutoComplete"
+
+)
+
+(ToolMenu.1615
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	1616
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+	Child:	1617
+	Child:	1618
+)
+
+(AVIcon.1616
+	Name:	"SnapTool"
+	Res:	"Icons.SnapTool"
+
+)
+
+(Tool.1617
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	1616
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+)
+
+(Tool.1618
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.InteractiveSnapToolUpdate"
+	Icon:	1619
+	Cursor:	"Cursors.Default"
+	Apply:	"View.InteractiveSnapTool"
+)
+
+(AVIcon.1619
+	Name:	"SnapFeatureTool"
+	Res:	"Icons.SnapFeatureTool"
+
+)
+
+(AVIcon.1620
+	Name:	"Icon"
+	Res:	"View.Icon"
+
+)
+
+(FN.2187
+	Path:	"$HOME"
+)
+
+(TClr.2188
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.2189
+	S:	"View"
+)
+
+(AVStr.2190
+	S:	"Table"
+)
+
+(AVStr.2191
+	S:	"Chart"
+)
+
+(AVStr.2192
+	S:	"Layout"
+)
+
+(AVStr.2193
+	S:	"Script"
+)
+
+(AVStr.2194
+	S:	"Project"
+)
+
+(AVStr.2195
+	S:	"Appl"
+)
+
